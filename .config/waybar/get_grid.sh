@@ -1,3 +1,2 @@
 #!/usr/local/bin/bash
-
-echo "########MENU-GRID########"
+echo "##MENU-GRID##"

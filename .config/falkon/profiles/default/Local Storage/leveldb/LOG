@@ -1,9 +1,3 @@
-2021/08/05-00:54:22.537 ffffffffa42dd000 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/Local Storage/leveldb/MANIFEST-000001
-2021/08/05-00:54:22.538 ffffffffa42dd000 Recovering log #2177
-2021/08/05-00:54:22.540 ffffffffa42dd000 Reusing old log /home/buckbucks/.config/falkon/profiles/default/Local Storage/leveldb/002177.log 
-2021/08/05-00:56:21.521 2b27f300 Level-0 table #2182: started
-2021/08/05-00:56:21.524 2b27f300 Level-0 table #2182: 20633 bytes OK
-2021/08/05-00:56:21.526 2b27f300 Delete type=0 #2177
-2021/08/05-02:26:11.294 2b27f300 Level-0 table #2184: started
-2021/08/05-02:26:11.301 2b27f300 Level-0 table #2184: 15855 bytes OK
-2021/08/05-02:26:11.308 2b27f300 Delete type=0 #2181
+2021/08/05-05:43:12.714 ffffffffa2392000 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/Local Storage/leveldb/MANIFEST-000001
+2021/08/05-05:43:12.716 ffffffffa2392000 Recovering log #2183
+2021/08/05-05:43:12.717 ffffffffa2392000 Reusing old log /home/buckbucks/.config/falkon/profiles/default/Local Storage/leveldb/002183.log 

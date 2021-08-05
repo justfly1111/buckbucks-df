@@ -1,5 +1,5 @@
 #System Environment Path
-set -x PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.bin:$HOME/.local/bin:$HOME/zig-0.8.0-dev/:/usr/local/lib/qt5/bin:$HOME/.local/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages
+set -x PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.cargo/bin:$HOME/bin:$HOME/.bin:$HOME/.local/bin:$HOME/zig-0.8.0-dev/:/usr/local/lib/qt5/bin:$HOME/.local/lib/python3.9/site-packages:/usr/local/lib/python3.9/site-packages:$HOME/.local/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:$HOME/go/bin:$HOME/.cargo/bin
 
 #BASIC ENV VAR
 set -x LC_CTYPE en_US.UTF-8
