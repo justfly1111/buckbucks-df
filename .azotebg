@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+pkill swaybg
+swaybg -o 'Chimei Innolux Corporation 0x1402 0x00000000' -i '/home/buckbucks/Pictures/gOTdDQ.png' -m fill &
