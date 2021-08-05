@@ -1,0 +1,45 @@
+{
+    "bookmarks": [],
+    "gui_state": {
+        "startupdialog": {
+            "geometry": "AdnQywADAAAAAAHgAAABDgAABZ8AAAMpAAAB4AAAAQ4AAAWfAAADKQAAAAAAAAAAB4AAAAHgAAABDgAABZ8AAAMp",
+            "width": 960,
+            "height": 540,
+            "x": 480,
+            "y": 270
+        },
+        "messagebox": {
+            "geometry": "AdnQywADAAAAAAJOAAABsgAABR0AAAI2AAACTgAAAbIAAAUdAAACNgAAAAAAAAAAB4AAAAJOAAABsgAABR0AAAI2",
+            "width": 720,
+            "height": 133,
+            "x": 590,
+            "y": 434
+        },
+        "mainview": {
+            "geometry": "AdnQywADAAAAAAAAAAAAAAAABZ8AAAQ3AAAAAAAAAAAAAAWfAAAENwAAAAAAAAAAB4AAAAAAAAAAAAAABZ8AAAQ3",
+            "width": 1440,
+            "height": 1080,
+            "x": 0,
+            "y": 0,
+            "lock_layout": false,
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAIAAAWgAAACEfwBAAAAA/sAAAAMAFMAdABhAHQAdQBzAQAAAAAAAADeAAAAdQAAIAD7AAAADABDAG8AbQBtAGkAdAEAAADhAAACXwAAAJIA/////AAAA0MAAAJdAAAAwgD////6AAAAAQEAAAAE+wAAABAAQgByAGEAbgBjAGgAZQBzAQAAAAD/////AAAAmwD////7AAAAFABTAHUAYgBtAG8AZAB1AGwAZQBzAQAAAAD/////AAAAwgD////7AAAAEgBGAGEAdgBvAHIAaQB0AGUAcwAAAAAA/////wAAAK4A////+wAAAAwAUgBlAGMAZQBuAHQAAAAAAP////8AAACLAP///wAAAAMAAAWgAAACEPwBAAAAAvsAAAAIAEQAaQBmAGYBAAAAAAAABaAAAABhAP////wAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABlAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABoAP///wAAAwYAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA",
+            "show_status_filter": false,
+            "toolbars": [],
+            "ref_sort": 0,
+            "show_diff_line_numbers": false,
+            "image_diff_mode": 0,
+            "image_zoom_mode": 0
+        }
+    },
+    "recent": [
+        {
+            "name": "polybar",
+            "path": "/usr/home/buckbucks/git/arewewayland/polybar"
+        },
+        {
+            "name": "i3ipcpp",
+            "path": "/usr/home/buckbucks/git/arewewayland/polybar/lib/i3ipcpp"
+        }
+    ],
+    "copy_formats": []
+}

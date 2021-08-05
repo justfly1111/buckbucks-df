@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# -*- sh -*-
+
+STATUS="$(playerctl status)"
+MSG="$(playerctl metadata --format '{{xesam:title}} - {{xesam:artist}}')"
+OPTIONS="玲 Back
+怜 Next
+懶 Play/Pause
+ Stop"
+
+SELECTED="$(
+rofi -dmenu \
+  -theme applet \
+  -mesg "${MSG:-"No infomation"}" \
+  -p "${STATUS:-"Not Playing"}" \
+  -i \
+  -line-padding 4  <<< $OPTIONS
+)"
+
+echo $SELECTED
+
+case $SELECTED in
+  *Next)
+    playerctl next ;;
+  *Back)
+    playerctl previous ;;
+  *Play/Pause)
+    playerctl play-pause ;;
+  *Stop)
+    playerctl stop ;;
+  *)
+    echo $SELCTED ;;
+esac
+

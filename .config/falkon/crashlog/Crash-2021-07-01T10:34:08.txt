@@ -1,0 +1,8 @@
+Time: Thu Jul 1 10:34:08 2021
+Qt version: 5.15.2 (compiled with 5.15.2)
+Falkon version: 3.1.0
+Rendering engine: QtWebEngine
+
+============== BACKTRACE ==============
+#0: 0x204983 <???> at /usr/local/bin/falkon
+#1: 0x81a9fcea5 <pthread_sigmask+0x535> at /lib/libthr.so.3

@@ -1,0 +1,5 @@
+firefox.desktop::::app::::/usr/local/share/applications/firefox.desktop
+chromium-browser.desktop::::app::::/usr/local/share/applications/chromium-browser.desktop
+thunderbird.desktop::::app::::/usr/local/share/applications/thunderbird.desktop
+vlc.desktop::::app::::/usr/local/share/applications/vlc.desktop
+Pictures::::dir::::/home/buckbucks/Pictures

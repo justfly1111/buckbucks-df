@@ -1,0 +1,6 @@
+[ElisaFileIndexer]
+RootPath[$e]=$HOME
+
+[PlayerSettings]
+PlayAtStartup=true
+ShowSystemTrayIcon=true

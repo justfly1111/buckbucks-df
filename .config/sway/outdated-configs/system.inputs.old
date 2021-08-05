@@ -1,0 +1,35 @@
+# Mouse:
+  input "1739:52542:MSFT0001:00_06CB:CD3E_TouchPad" {
+		accel_profile "adaptive"
+		#scroll_method "two_finger"
+		natural_scroll	"enabled"
+		click_method	"clickfinger"
+		dwt "enabled"
+		middle_emulation "enabled"
+  }
+
+input "1739:52542:MX_Master_Mouse" {
+  natural_scroll enable
+  accel_profile adaptive
+  pointer_accel -0.3
+}
+#  input "1386:20975:WCOM51EF:00_056A:51EF_TouchScreen" {
+#		send_events "enabled"
+#		calibration_matrix  1.0, 0.0, 0.0, 0.0, 1.0, 0.0
+#  }
+#  input "1386:20975:WCOM51EF:00_056A:51EF_Tablet" {
+#		send_events "enabled"
+#		calibration_matrix [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0 ]
+#  }
+#  input "1386:20975:WCOM51EF:00_056A:51EF_Pen" {
+#		send_events "enabled"
+#		calibration_matrix [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0 ]
+#		accel_profile "none"
+#		accel_speed  "0.0"
+#  }
+
+# keyboard layout
+	input * xkb_layout "us"
+
+# numlock on
+	input * xkb_numlock enabled

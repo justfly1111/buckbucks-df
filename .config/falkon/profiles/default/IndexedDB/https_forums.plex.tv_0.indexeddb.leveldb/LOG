@@ -1,0 +1,15 @@
+2021/07/16-13:01:27.565 7d80c700 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_forums.plex.tv_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/16-13:01:27.566 7d80c700 Recovering log #14
+2021/07/16-13:01:27.566 7d80c700 Reusing old log /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_forums.plex.tv_0.indexeddb.leveldb/000014.log 
+2021/07/16-13:02:32.608 ffffffffbf197500 Level-0 table #19: started
+2021/07/16-13:02:32.611 ffffffffbf197500 Level-0 table #19: 4912 bytes OK
+2021/07/16-13:02:32.614 ffffffffbf197500 Delete type=0 #14
+2021/07/16-13:02:32.614 ffffffffbf197500 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/07/16-13:02:32.615 ffffffffbf197500 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00 (A\x04\xabwB\x00\x01l\x00e\x00x\x00t\x00e\x00r\x00n\x00a\x00l\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00w\x00s\x001\x00.\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x00c\x00d\x00n\x00.\x00c\x00o\x00m\x00/\x00p\x00l\x00e\x00x\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x003\x00X\x00/\x003\x00/\x005\x00/\x003\x005\x001\x003\x00e\x003\x009\x00a\x00a\x00f\x007\x00b\x00b\x00b\x00b\x00a\x000\x004\x00c\x00e\x001\x006\x005\x004\x00f\x008\x008\x006\x00b\x001\x00c\x004\x00e\x001\x00f\x00a\x002\x00e\x006\x000\x00.\x00w\x00o\x00f\x00f' @ 400 : 1
+2021/07/16-13:02:32.615 ffffffffbf197500 Compacting 1@1 + 1@2 files
+2021/07/16-13:02:32.618 ffffffffbf197500 Generated table #20@1: 41 keys, 2571 bytes
+2021/07/16-13:02:32.618 ffffffffbf197500 Compacted 1@1 + 1@2 files => 2571 bytes
+2021/07/16-13:02:32.619 ffffffffbf197500 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/07/16-13:02:32.620 ffffffffbf197500 Delete type=2 #16
+2021/07/16-13:02:32.620 ffffffffbf197500 Delete type=2 #19
+2021/07/16-13:02:32.622 ffffffffbf197500 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00 (A\x04\xabwB\x00\x01l\x00e\x00x\x00t\x00e\x00r\x00n\x00a\x00l\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00w\x00s\x001\x00.\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x00c\x00d\x00n\x00.\x00c\x00o\x00m\x00/\x00p\x00l\x00e\x00x\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x003\x00X\x00/\x003\x00/\x005\x00/\x003\x005\x001\x003\x00e\x003\x009\x00a\x00a\x00f\x007\x00b\x00b\x00b\x00b\x00a\x000\x004\x00c\x00e\x001\x006\x005\x004\x00f\x008\x008\x006\x00b\x001\x00c\x004\x00e\x001\x00f\x00a\x002\x00e\x006\x000\x00.\x00w\x00o\x00f\x00f' @ 400 : 1 .. (end); will stop at (end)

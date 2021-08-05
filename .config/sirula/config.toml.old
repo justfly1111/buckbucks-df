@@ -1,0 +1,6 @@
+markup_highlight = 'foreground="#dc69ff" underline="double"'
+# anchor window to screen edge
+anchor_left = true
+anchor_right = false
+anchor_top = false
+anchor_bottom = true

@@ -1,0 +1,22 @@
+#Automatically generated with lumina-config
+# DO NOT CHANGE MANUALLY
+[Default Applications]
+application/terminal=/usr/local/share/applications/xterm.desktop;
+inode/directory=/usr/local/share/applications/lumina-fm.desktop;
+x-scheme-handler/http=/usr/local/share/applications/firefox.desktop;
+x-scheme-handler/https=/usr/local/share/applications/firefox.desktop;
+text/*=/usr/local/share/applications/lumina-textedit.desktop;
+audio/*=/usr/local/share/applications/vlc.desktop;
+video/*=/usr/local/share/applications/vlc.desktop;
+application/zip=/usr/local/share/applications/lumina-archiver.desktop;
+application/pdf=/usr/local/share/applications/lumina-pdf.desktop;
+application/x-compressed-tar=/usr/local/share/applications/lumina-archiver.desktop;
+application/x-bzip-compressed-tar=/usr/local/share/applications/lumina-archiver.desktop;
+application/x-lrzip-compressed-tar=/usr/local/share/applications/lumina-archiver.desktop;
+application/x-lzma-compressed-tar=/usr/local/share/applications/lumina-archiver.desktop;
+application/x-xz-compressed-tar=/usr/local/share/applications/lumina-archiver.desktop;
+application/x-tar=/usr/local/share/applications/lumina-archiver.desktop;
+unknown/*=lumina-textedit.desktop;
+application/x-shellscript=lumina-textedit.desktop;
+application/email=/usr/local/share/applications/claws-mail.desktop;
+application/x-desktop=/usr/local/share/applications/org.kde.akregator.desktop;

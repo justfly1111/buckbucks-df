@@ -1,0 +1,64 @@
+env:
+  TERM: alacritty
+  LANG: en_US.UTF-8
+  LC_CTYPE: en_US.UTF-8
+window:
+  padding:
+    x: 2
+    y: 2
+  dynamic_padding: true
+  decorations: none
+  startup_mode: Windowed
+scrolling:
+  history: 10000
+font:
+  normal:
+    family: monospace
+    style: Regular
+  bold:
+    family: monospace
+    style: Bold
+  italic:
+    family: monospace
+    style: Italic
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+  size: 11
+  offset:
+    x: 1
+    y: 1
+draw_bold_text_with_bright_colors: true
+colors:
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#F81CE5"
+    cursor: "#ffffff"
+  normal:
+    black: "#000000"
+    red: "#fe0100"
+    green: "#33ff00"
+    yellow: "#feff00"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#d0d0d0"
+  bright:
+    black: "#808080"
+    red: "#fe0100"
+    green: "#33ff00"
+    yellow: "#feff00"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#FFFFFF"
+background_opacity: 0.6
+selection:
+  save_to_clipboard: false
+dynamic_title: true
+cursor:
+  style: Beam
+  unfocused_hollow: true
+live_config_reload: true

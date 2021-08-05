@@ -1,0 +1,28 @@
+colors:
+  name: SpaceMacs
+  author: ""
+  primary:
+    foreground: '#b2b2b2'
+    background: '#292b2e'
+  search:
+    matches:
+      foreground: '#212026'
+      background: '#67b11d'
+    focused_match:
+      foreground: '#ffffff'
+      background: '#a45bad'
+    bar:
+      foreground: '#b2b2b2'
+      background: '#5d4d7a'
+  line_indicator:
+    foreground: '#b2b2b2'
+    background: '#5d4d7a' 
+  normal:
+    black: '#1d1f21'
+    red: '#ce537a'
+    green: '#2d9574'
+    yellow: '#b1951d'
+    blue: '#7590db'
+    magenta: '#bc6ec5'
+    cyan: '#4f97d7'
+    white: '#ffffff'

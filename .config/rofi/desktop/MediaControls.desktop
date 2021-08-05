@@ -1,0 +1,7 @@
+[Desktop Entry]
+
+Type=Application
+Version=1.0
+Name=Media Controls
+Exec=sh ~/.config/rofi/scripts/media_controls
+Terminal=false

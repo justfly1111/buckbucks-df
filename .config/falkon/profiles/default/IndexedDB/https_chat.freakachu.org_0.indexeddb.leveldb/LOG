@@ -1,0 +1,15 @@
+2021/07/02-09:38:28.042 59a2c600 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_chat.freakachu.org_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/02-09:38:28.043 59a2c600 Recovering log #20
+2021/07/02-09:38:28.098 59a2c600 Reusing old log /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_chat.freakachu.org_0.indexeddb.leveldb/000020.log 
+2021/07/02-09:38:41.642 ffffffffd3e1a500 Level-0 table #26: started
+2021/07/02-09:38:41.710 ffffffffd3e1a500 Level-0 table #26: 662567 bytes OK
+2021/07/02-09:38:41.711 ffffffffd3e1a500 Delete type=0 #20
+2021/07/02-09:38:41.711 ffffffffd3e1a500 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/07/02-09:38:41.711 ffffffffd3e1a500 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0a\x05\x02\x01\x01\x00-' @ 2556 : 1
+2021/07/02-09:38:41.712 ffffffffd3e1a500 Compacting 1@1 + 1@2 files
+2021/07/02-09:38:41.727 ffffffffd3e1a500 Generated table #27@1: 709 keys, 60278 bytes
+2021/07/02-09:38:41.727 ffffffffd3e1a500 Compacted 1@1 + 1@2 files => 60278 bytes
+2021/07/02-09:38:41.728 ffffffffd3e1a500 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/07/02-09:38:41.729 ffffffffd3e1a500 Delete type=2 #23
+2021/07/02-09:38:41.729 ffffffffd3e1a500 Delete type=2 #26
+2021/07/02-09:38:41.729 ffffffffd3e1a500 Manual compaction at level-1 from '\x00\x0a\x05\x02\x01\x01\x00-' @ 2556 : 1 .. (end); will stop at (end)

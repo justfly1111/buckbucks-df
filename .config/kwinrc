@@ -1,0 +1,12 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
+
+[Desktops]
+Id_1=c2dea98f-589d-4235-9cd3-4a3e524b9b81
+Number=1
+Rows=1
+
+[DrmOutputs][e36a04bd-8985-5b96-ada7-bf2e2d16d455][e36a04bd-8985-5b96-ada7-bf2e2d16d455]
+Mode=1920x1080_60008
+Scale=1
+Transform=normal

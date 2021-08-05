@@ -1,0 +1,373 @@
+Failed to create wl_display (No such file or directory)
+qt.qpa.plugin: Could not load the Qt platform plugin "wayland" in "" even though it was found.
+ - Created new single-instance lock
+Number of XCB screens: 1
+Loading Locale: "lumina-desktop" "C" "System"
+ - Could not load Locale: ""
+libGL error: MESA-LOADER: failed to open swrast: Cannot open "/usr/local/lib/dri-devel/swrast_dri.so" (search paths /usr/local/lib/dri-devel)
+libGL error: failed to load driver: swrast
+Initializing Session
+Starting System Tray: 0
+System Tray Started Successfully
+ - Initialize system menus
+qt.qpa.xcb: QXcbConnection: XCB error: 1 (BadRequest), sequence: 532, resource id: 12582925, major code: 143 (Unknown), minor code: 1
+Auto App List Update: QDateTime(2021-06-24 04:59:40.946 EDT Qt::LocalTime) Files Found: 772
+QFileSystemWatcher::removePaths: list is empty
+qt.svg: link #e is undefined!
+qt.svg: link #f is undefined!
+qt.svg: link #g is undefined!
+qt.svg: link #h is undefined!
+qt.svg: link #e is undefined!
+qt.svg: link #f is undefined!
+qt.svg: link #g is undefined!
+qt.svg: link #h is undefined!
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5035
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5037
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5035
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5037
+libpng warning: iCCP: known incorrect sRGB profile
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+libpng warning: iCCP: known incorrect sRGB profile
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+ - Update Desktops
+  Screen Count: 1
+  DESKTOPS Length: 0
+" -- Screen[0]:" QRect(0,0 1920x1080)
+ - Start desktop on screen: 0
+Init Desktop: 0
+Desktop # 0  ->  QRect(0,0 1920x1080) QRect(0,0 1920x1080)
+Create bgDesktop
+ - Desktop Init Done: "default"
+Found Settings Change: "default"
+ - Update Desktop Background for screen: 0
+ - Update Desktop Plugins for screen: "default"
+ - Update Panels For Screen: 0
+ -- Create panel  0
+ -- Create panel  1
+ - Update Menu: "default"
+Found workspace number: 0
+ - Update Desktop Plugins for screen: "default"
+ - Update Desktop Plugins for screen: "default"
+ - Update Desktop Plugins for screen: "default"
+ - Update Desktop Background for screen: 0
+ - Update Desktop Plugins for screen: "default"
+ - Update Panels For Screen: 0
+ -- Update panel  0
+ -- Update panel  1
+ - Update Menu: "default"
+Found workspace number: 0
+Could not find icon: "lumina" ""
+Resync Size: QSize(100, 30) QSize(270, 600)
+ - after menu resize: QSize(270, 600) QSize(270, 600)
+Updating clock format
+Verify Clock width: 1 80 ("04:59:42")
+Verify Clock width: 1 80 ("04:59:42")
+ - Update Desktop Background for screen: 0
+Verify Clock width: 1 80 ("04:59:42")
+Verify Clock width: 1 80 ("04:59:42")
+libpng warning: iCCP: too many profiles
+qt.svg: link #e is undefined!
+qt.svg: link #f is undefined!
+qt.svg: link #g is undefined!
+qt.svg: link #h is undefined!
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5035
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5037
+libpng warning: iCCP: known incorrect sRGB profile
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:478:18: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:492:20: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:478:18: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:492:20: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:478:18: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:492:20: Could not add child element to parent element because the types are incorrect.
+Launching startup applications
+ - - Screen Brightness: "100%"
+ - Loading previous settings
+ - - Audio Volume: "50%"
+ - Initialize media player
+Verify Clock width: 1 80 ("04:59:44")
+
+(<unknown>:79136): GLib-GObject-WARNING **: 04:59:44.369: invalid uninstantiatable type '(null)' in cast to 'GstElement'
+
+(<unknown>:79136): GStreamer-CRITICAL **: 04:59:44.369: gst_element_message_full_with_details: assertion 'GST_IS_ELEMENT (element)' failed
+Visual Tray Started: "systemtray---0.0.1" true
+Error: "The stream is in the wrong format."
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 16777222
+Session Tray: Window Added
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 18874384
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1326, resource id: 18874381, major code: 20 (GetProperty), minor code: 0
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+ - Update Desktop Background for screen: 0
+ - Update Desktop Background for screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(0,23 466x246) "kgpg"
+ -- Found Screen: 0
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(10,12 945x993) "Chromium-browser"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(21,44 487x326) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(42,65 1027x253) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(63,86 367x619) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(0,304 504x103) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(84,107 355x337) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(105,128 132x171) "kgpg"
+ -- Found Screen: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6628, resource id: 18874420, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6629, resource id: 18874420, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6630, resource id: 18874420, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6649, resource id: 18874420, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6650, resource id: 18874420, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 6651, resource id: 18874420, major code: 20 (GetProperty), minor code: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(262,100 566x103) "kgpg"
+ -- Found Screen: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 7042, resource id: 18874430, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 7043, resource id: 18874430, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 7044, resource id: 18874430, major code: 20 (GetProperty), minor code: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(126,149 855x311) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(147,170 829x548) "kgpg"
+ -- Found Screen: 0
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 18874384
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 10714, resource id: 18874384, major code: 14 (GetGeometry), minor code: 0
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 18874495
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 18874495
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 11476, resource id: 18874495, major code: 14 (GetGeometry), minor code: 0
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 18874503
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 18874503
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 13245, resource id: 18874503, major code: 14 (GetGeometry), minor code: 0
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 18874637
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 18874637
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 18874655
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 14283, resource id: 18874637, major code: 14 (GetGeometry), minor code: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(168,191 367x619) "kgpg"
+ -- Found Screen: 0
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(189,212 355x337) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(210,233 132x171) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(231,254 805x477) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(334,65 422x172) "kgpg"
+ -- Found Screen: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21547, resource id: 18874440, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21548, resource id: 18874440, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21549, resource id: 18874440, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21561, resource id: 18874440, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21562, resource id: 18874440, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21563, resource id: 18874440, major code: 20 (GetProperty), minor code: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(252,275 643x514) "kgpg"
+ -- Found Screen: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 22350, resource id: 18874715, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 22351, resource id: 18874715, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 22352, resource id: 18874715, major code: 20 (GetProperty), minor code: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(273,296 525x264) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(294,317 550x454) "kgpg"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(234,100 623x103) "kgpg"
+ -- Found Screen: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 26703, resource id: 18874753, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 26704, resource id: 18874753, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 26705, resource id: 18874753, major code: 20 (GetProperty), minor code: 0
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(315,338 626x531) "kgpg"
+ -- Found Screen: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 27637, resource id: 18874768, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 27638, resource id: 18874768, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 27639, resource id: 18874768, major code: 20 (GetProperty), minor code: 0
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(336,359 482x290) "terminology"
+ -- Found Screen: 0
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 23068675
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 23068675
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 8962, resource id: 23068675, major code: 14 (GetGeometry), minor code: 0
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 23068683
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 23068683
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 23068686
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 23068686
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 14153, resource id: 23068686, major code: 14 (GetGeometry), minor code: 0
+Could not find icon: "drkonqi" ""
+Could not find icon: "drkonqi" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(584,276 732x412) "drkonqi"
+ -- Found Screen: 0
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 39845899
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 39845899
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 39845902
+Could not find icon: "drkonqi" ""
+Session Tray: Window Removed
+ - Visual System Tray: Remove Icon: 39845902
+qt.qpa.xcb: QXcbConnection: XCB error: 9 (BadDrawable), sequence: 15682, resource id: 39845902, major code: 14 (GetGeometry), minor code: 0
+Could not find icon: "drkonqi" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(357,380 818x572) "LilyTerm"
+ -- Found Screen: 0
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+pgrep: Cannot open pidfile `/tmp/.updateInProgress': No such file or directory
+Start closing down the session:  "24 Jun 2021 07:32:25"
+Updating clock format
+Verify Clock width: 1 80 ("07:32:25")
+Stopping system tray...
+ - Stopping tray app: "qtfm-tray"
+ - Stopping tray app: "kgpg"
+ - Visual System Tray: Remove Icon: 16777222
+
+(<unknown>:79136): GLib-GObject-WARNING **: 07:32:25.778: invalid uninstantiatable type '(null)' in cast to 'GstElement'
+
+(<unknown>:79136): GStreamer-CRITICAL **: 07:32:25.778: gst_element_message_full_with_details: assertion 'GST_IS_ELEMENT (element)' failed
+ - Visual System Tray: Remove Icon: 18874655
+ - Closing window: "Chromium-browser" 25165825
+ - Closing window: "LilyTerm" 23068675
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8512, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8513, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8514, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8515, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8516, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8517, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8518, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8519, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8520, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8524, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8527, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8530, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8531, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8532, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8533, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8534, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8535, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8536, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8537, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8538, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8539, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8540, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 8541, resource id: 23068675, major code: 20 (GetProperty), minor code: 0
+ - Closing down the desktop elements
+Stop visual system tray: "systemtray---0.0.1"
+Unregistered Visual Tray
+Done stopping visual tray
+Error: "The stream is in the wrong format."
+shutdown: [pid 91060]
+Shutdown NOW!

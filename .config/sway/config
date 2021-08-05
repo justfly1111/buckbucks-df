@@ -1,0 +1,64 @@
+# Customized config for sway
+
+exec_always xrdb -load ~/.Xresources
+xwayland force
+
+
+#BACKGROUND RANDOM
+#init bg on load
+exec_always setrandom ~/Pictures --mode="stretch"
+exec swayidle \
+	timeout 300 '/usr/local/bin/setrandom ~/Pictures --mode="stretch"'
+
+### Variables
+#
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+set $ctrl Control
+set $Mon1 eDP-1
+set $up k
+set $down j
+set $left h
+set $right l
+
+include ~/.config/sway/config.d/ui.config
+
+# Preferred applications
+set $term alacritty
+set $editor fxite
+set $browser falkon
+set $filemanager nemo
+set $scripts  $HOME/.config/sway/scripts
+set $rofi-scripts $HOME/.config/rofi/scripts
+set $tty-popup $scripts/tty-popup
+set $menu sirula | xargs swaymsg exec
+set $drun sirula | xargs swaymsg exec
+set $smenu bash $scripts/menu
+set $pass_menu $tty-popup pass $scripts/fzf-pass
+set $clip_menu $tty-popup pass $scripts/clipboard menu
+set $printscreen bash $scripts/printscreen
+
+# Autostart
+include ~/.config/sway/config.d/autostart.config
+include ~/.config/sway/config.d/output.config
+
+### Idle configuration
+exec swayidle \
+	timeout 1500 '/var/xscreensaver/bin/xscreensaver-command -activate' \
+	resume '/var/xscreensaver/bin/xscreensaver-command -deactivate'
+
+exec swayidle -w \
+         timeout 5000 'swaylock -f -c 000000' \
+         timeout 13300 'swaymsg "output * dpms off"' \
+              resume 'swaymsg "output * dpms on"' \
+         before-sleep 'swaylock -f -c 000000'
+
+### Input configuration
+include ~/.config/sway/config.d/input.config
+include ~/.config/sway/config.d/workspaces.config
+include ~/.config/sway/config.d/keybinds.config
+include ~/.config/sway/config.d/movement.config
+
+bar {
+	swaybar_command waybar
+}

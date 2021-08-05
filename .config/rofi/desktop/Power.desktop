@@ -1,0 +1,7 @@
+[Desktop Entry]
+
+Type=Application
+Version=1.0
+Name=Power
+Exec=sh ~/.config/rofi/scripts/power_menu
+Terminal=false

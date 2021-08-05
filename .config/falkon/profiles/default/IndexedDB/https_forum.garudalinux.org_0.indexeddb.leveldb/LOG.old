@@ -1,0 +1,5 @@
+2021/08/05-00:56:15.751 ffffffffa42de500 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_forum.garudalinux.org_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/05-00:56:52.341 ffffffffbc9e0100 Level-0 table #5: started
+2021/08/05-00:56:52.349 ffffffffbc9e0100 Level-0 table #5: 62207 bytes OK
+2021/08/05-00:56:52.350 ffffffffbc9e0100 Delete type=0 #3
+2021/08/05-00:56:52.350 ffffffffbc9e0100 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2021/07/29-14:20:59.420 ffffffff802dee00 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/29-14:20:59.420 ffffffff802dee00 Recovering log #156
+2021/07/29-14:20:59.421 ffffffff802dee00 Reusing old log /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000156.log 
+2021/07/29-14:22:04.667 ffffffff8bcdc000 Level-0 table #162: started
+2021/07/29-14:22:04.671 ffffffff8bcdc000 Level-0 table #162: 5062 bytes OK
+2021/07/29-14:22:04.674 ffffffff8bcdc000 Delete type=0 #156
+2021/07/29-14:22:04.674 ffffffff8bcdc000 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/07/29-14:22:04.674 ffffffff8bcdc000 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x1c\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 20391 : 1
+2021/07/29-14:22:04.675 ffffffff8bcdc000 Compacting 1@1 + 1@2 files
+2021/07/29-14:22:04.680 ffffffff8bcdc000 Generated table #163@1: 270 keys, 17802 bytes
+2021/07/29-14:22:04.680 ffffffff8bcdc000 Compacted 1@1 + 1@2 files => 17802 bytes
+2021/07/29-14:22:04.682 ffffffff8bcdc000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/07/29-14:22:04.683 ffffffff8bcdc000 Delete type=2 #162
+2021/07/29-14:22:04.683 ffffffff8bcdc000 Delete type=2 #159
+2021/07/29-14:22:04.683 ffffffff8bcdc000 Manual compaction at level-1 from '\x00\x1c\x02\x02\x01\x14\x00s\x00h\x00e\x00l\x00l\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00e\x00r\x00_\x00k\x00e\x00y' @ 20391 : 1 .. (end); will stop at (end)

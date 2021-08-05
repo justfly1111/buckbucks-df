@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+# -*- sh -*-
+
+OPTIONS=" Lock
+鈴 Sleep
+ Logout
+ Poweroff
+淚 Restart"
+
+SELECTED="$(
+rofi -dmenu \
+  -theme applet \
+  -p "System" \
+  -i \
+  -line-padding 4  <<< "$OPTIONS"
+)"
+
+echo "$SELECTED"
+
+case $SELECTED in
+  *Lock)
+    swaylock \
+      --screenshots \
+      --clock \
+      --indicator \
+      --indicator-radius 200 \
+      --indicator-thickness 5   \
+      --effect-greyscale \
+      --effect-blur 7x5 \
+      --grace 2 \
+      --fade-in 1 ;;
+  *Sleep)
+    systemctl hibernate ;;
+  *Logout)
+    swaymsg exit ;;
+  *Poweroff)
+    systemctl poweroff ;;
+  *Restart)
+    systemctl reboot ;;
+  *)
+    echo "$SELCTED" ;;
+esac
+

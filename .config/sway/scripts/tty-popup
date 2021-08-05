@@ -1,0 +1,18 @@
+#! /bin/bash
+
+# This can be accessed by child process to tell if this is a popup pane.
+export TTY_POPUP=1
+
+if (( $# == 0)) ; then
+    echo "Invalid usage. I need an argument."
+    echo "  ➜  $0 title \"command or script\""
+    exit 1
+fi
+
+if (( $# > 1 )) ; then
+    title=$1
+    shift 
+fi
+
+
+kitty --class "${class:-"tty-popup"}" --title "$title" -e "$@" &

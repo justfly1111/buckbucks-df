@@ -1,0 +1,68 @@
+{
+   "checksum": "b5fbd0a4138e41c5b067f99bc919943e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13271988620348799",
+            "guid": "1ab76b12-d729-42ac-a939-ab1bc95dc759",
+            "id": "5",
+            "name": "FunctionalHacker/dotfiles: My dotfiles - dotfiles - Marko's Git",
+            "type": "url",
+            "url": "https://git.korhonen.cc/FunctionalHacker/dotfiles"
+         }, {
+            "date_added": "13271989135828238",
+            "guid": "3c70d261-7606-495a-970c-c779cecb48ae",
+            "id": "6",
+            "name": "Waybar - Bountysource",
+            "type": "url",
+            "url": "https://www.bountysource.com/teams/waybar/issues?tracker_ids=105025925"
+         }, {
+            "date_added": "13272005187187017",
+            "guid": "3cd54548-238f-4aa6-bd40-829af52f2865",
+            "id": "7",
+            "name": "Examples · Alexays/Waybar Wiki · GitHub",
+            "type": "url",
+            "url": "https://github.com/Alexays/Waybar/wiki/Examples#pipshags-configuration"
+         }, {
+            "date_added": "13272011958354979",
+            "guid": "a3fa7de0-8e03-4c23-abe8-ade40f68fcc5",
+            "id": "8",
+            "name": "gtk/theme/Adwaita/_colors-public.scss · gtk-3-22 · GNOME / gtk · GitLab",
+            "type": "url",
+            "url": "https://gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-22/gtk/theme/Adwaita/_colors-public.scss"
+         }, {
+            "date_added": "13272025752779109",
+            "guid": "04e7c1d1-a683-4638-845f-4272144d30bc",
+            "id": "9",
+            "name": "cheatsheet-_-font-awesome.pdf",
+            "type": "url",
+            "url": "https://www1.ucdenver.edu/docs/librariesprovider29/college-of-engineering-and-applied-science/web-resources/cheatsheet-_-font-awesome.pdf"
+         } ],
+         "date_added": "13271979491036986",
+         "date_modified": "13272025752779109",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13271979491037000",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13271979491037018",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,6 @@
+#! /bin/sh
+# -*- sh -*-
+rofi \
+    -show drun \
+    -p run \
+    -run-command 'swaymsg exec -- {cmd}'

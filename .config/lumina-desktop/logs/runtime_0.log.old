@@ -1,0 +1,176 @@
+ - Created new single-instance lock
+Number of XCB screens: 1
+Loading Locale: "lumina-desktop" "C" "System"
+ - Could not load Locale: ""
+libGL error: MESA-LOADER: failed to open swrast: Cannot open "/usr/local/lib/dri-devel/swrast_dri.so" (search paths /usr/local/lib/dri-devel)
+libGL error: failed to load driver: swrast
+Initializing Session
+Starting System Tray: 0
+System Tray Started Successfully
+ - Initialize system menus
+qt.qpa.xcb: QXcbConnection: XCB error: 1 (BadRequest), sequence: 532, resource id: 12582925, major code: 143 (Unknown), minor code: 1
+Auto App List Update: QDateTime(2021-06-24 04:37:17.078 EDT Qt::LocalTime) Files Found: 772
+QFileSystemWatcher::removePaths: list is empty
+qt.svg: link #e is undefined!
+qt.svg: link #f is undefined!
+qt.svg: link #g is undefined!
+qt.svg: link #h is undefined!
+qt.svg: link #e is undefined!
+qt.svg: link #f is undefined!
+qt.svg: link #g is undefined!
+qt.svg: link #h is undefined!
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5035
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5037
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5035
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5037
+libpng warning: iCCP: known incorrect sRGB profile
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+libpng warning: iCCP: known incorrect sRGB profile
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+ - Update Desktops
+  Screen Count: 1
+  DESKTOPS Length: 0
+" -- Screen[0]:" QRect(0,0 1920x1080)
+ - Start desktop on screen: 0
+Init Desktop: 0
+Desktop # 0  ->  QRect(0,0 1920x1080) QRect(0,0 1920x1080)
+Create bgDesktop
+ - Desktop Init Done: "default"
+Found Settings Change: "default"
+ - Update Desktop Background for screen: 0
+ - Update Desktop Plugins for screen: "default"
+ - Update Panels For Screen: 0
+ -- Create panel  0
+ -- Create panel  1
+ - Update Menu: "default"
+Found workspace number: 0
+ - Update Desktop Plugins for screen: "default"
+ - Update Desktop Plugins for screen: "default"
+ - Update Desktop Plugins for screen: "default"
+ - Update Desktop Background for screen: 0
+ - Update Desktop Plugins for screen: "default"
+ - Update Panels For Screen: 0
+ -- Update panel  0
+ -- Update panel  1
+ - Update Menu: "default"
+Found workspace number: 0
+Could not find icon: "lumina" ""
+Resync Size: QSize(100, 30) QSize(270, 600)
+ - after menu resize: QSize(270, 600) QSize(270, 600)
+Updating clock format
+Verify Clock width: 1 80 ("04:37:18")
+Verify Clock width: 1 80 ("04:37:18")
+ - Update Desktop Background for screen: 0
+Verify Clock width: 1 80 ("04:37:18")
+Verify Clock width: 1 80 ("04:37:18")
+libpng warning: iCCP: too many profiles
+qt.svg: link #e is undefined!
+qt.svg: link #f is undefined!
+qt.svg: link #g is undefined!
+qt.svg: link #h is undefined!
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5035
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/de.haeckerfelix.gradio.svg:1327: Could not resolve property: #pattern5037
+libpng warning: iCCP: known incorrect sRGB profile
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/pixmaps/Alacritty.svg:443:51: Could not resolve property: #linearGradient10962
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:478:18: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:492:20: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:478:18: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:492:20: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:478:18: Could not add child element to parent element because the types are incorrect.
+qt.svg: /usr/local/share/icons/hicolor/scalable/apps/evilvte.svg:492:20: Could not add child element to parent element because the types are incorrect.
+Launching startup applications
+ - - Screen Brightness: "100%"
+ - Loading previous settings
+ - - Audio Volume: "50%"
+ - Initialize media player
+Verify Clock width: 1 80 ("04:37:19")
+
+(<unknown>:57402): GLib-GObject-WARNING **: 04:37:19.447: invalid uninstantiatable type '(null)' in cast to 'GstElement'
+
+(<unknown>:57402): GStreamer-CRITICAL **: 04:37:19.447: gst_element_message_full_with_details: assertion 'GST_IS_ELEMENT (element)' failed
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Visual Tray Started: "systemtray---0.0.1" true
+Error: "The stream is in the wrong format."
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 16777222
+Session Tray: Window Added
+Session Tray: Window Added
+ - Visual System Tray: Add Icon: 18874384
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 1326, resource id: 18874381, major code: 20 (GetProperty), minor code: 0
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+ - Update Desktop Background for screen: 0
+ - Update Desktop Background for screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(0,23 466x246) "kgpg"
+ -- Found Screen: 0
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(21,44 484x316) "XTerm"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(42,65 505x505) "lumina-textedit"
+ -- Found Screen: 0
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(431,218 652x421) "lumina-textedit"
+ -- Found Screen: 0
+Missing XML Information: "https://lumina-desktop.org/?feed=rss2" "" ""
+Missing XML Information: "https://www.freebsd.org/news/rss.xml" "" ""
+Missing XML Information: "http://www.truenas.com/trueos-discontinuation/" "" ""
+ -- Check Window Geom: QRect(0,2 1920x1041) QRect(10,12 945x1021) "Chromium-browser"
+ -- Found Screen: 0
+pgrep: Cannot open pidfile `/tmp/.updateInProgress': No such file or directory
+Start closing down the session:  "24 Jun 2021 04:44:31"
+Updating clock format
+Verify Clock width: 1 80 ("04:44:31")
+Stopping system tray...
+ - Stopping tray app: "qtfm-tray"
+ - Stopping tray app: "kgpg"
+ - Visual System Tray: Remove Icon: 16777222
+
+(<unknown>:57402): GLib-GObject-WARNING **: 04:44:31.279: invalid uninstantiatable type '(null)' in cast to 'GstElement'
+
+(<unknown>:57402): GStreamer-CRITICAL **: 04:44:31.279: gst_element_message_full_with_details: assertion 'GST_IS_ELEMENT (element)' failed
+ - Visual System Tray: Remove Icon: 18874384
+ - Closing window: "XTerm" 20971532
+ - Closing window: "Chromium-browser" 25165825
+ - Window did not close, killing application: "" 20971532
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21832, resource id: 20971532, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21833, resource id: 20971532, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21834, resource id: 20971532, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21838, resource id: 20971532, major code: 20 (GetProperty), minor code: 0
+ - Window did not close, killing application: "Chromium-browser" 25165825
+qt.qpa.xcb: QXcbConnection: XCB error: 2 (BadValue), sequence: 21839, resource id: 20971532, major code: 113 (KillClient), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21847, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21848, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21849, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21855, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21856, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21857, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21863, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21864, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21865, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21871, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21872, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21873, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21879, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21880, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21881, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21887, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21888, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 21889, resource id: 25165825, major code: 20 (GetProperty), minor code: 0
+ - Closing down the desktop elements
+Stop visual system tray: "systemtray---0.0.1"
+Unregistered Visual Tray
+Done stopping visual tray
+Error: "The stream is in the wrong format."
+Finished Closing Down Lumina

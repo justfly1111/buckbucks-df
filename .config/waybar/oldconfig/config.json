@@ -1,0 +1,86 @@
+{
+  "layer": "top",
+  "height": 35,
+  "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
+  "modules-center": ["sway/window"],
+  "modules-right": [
+    "pulseaudio",
+    "custom/network",
+    "backlight",
+    "battery",
+    "clock",
+    "tray",
+    "idle_inhibitor"
+  ],
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true
+  },
+  "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "clock": {
+    "tooltip-format": "{:%Y-%m-%d | %H:%M}",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "backlight": {
+    "format": "{icon} {percent}% ",
+    "format-icons": ["", "", "", ""]
+  },
+  "battery": {
+    "interval": 1,
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": " {capacity}%",
+    "format-discharging": "{icon}   {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphones": "",
+      "handsfree": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "custom/media": {
+    "format": "{icon} {}",
+    "return-type": "json",
+    "max-length": 40,
+    "format-icons": {
+      "spotify": "",
+      "default": "🎜"
+    },
+    "on-click": "playerctl  play-pause",
+    "escape": true,
+    "exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py 2> /dev/null"
+  },
+  "custom/network": {
+    "escape": true,
+    "exec": "$HOME/.config/waybar/custom_modules/wifi.sh status 2> /dev/null",
+    "on-click": "rofi-wifi-menu",
+    "on-click-right": "swaymsg exec \"~/.config/sway/scripts/tty-popup tunnel  ~/.config/waybar/custom_modules/wifi.sh onclick\"",
+    "restart-interval": 1,
+    "return-type": "json"
+  }
+}

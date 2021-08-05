@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+# Credit goes to https://git.reekynet.com/ReekyMarko/fzf-pass for this.
+
+cd "$HOME/.password-store" || exit 1
+PASSFILE=$(tree -Ffi \
+  | grep '.gpg' \
+  | sed 's/.gpg$//g' \
+  | sed 's/^..//' \
+  | fzf \
+  --color="gutter:0,prompt:2" \
+  --no-info \
+  --no-multi \
+  --pointer='➜' \
+  --preview "echo {} && (echo {} | sed 's/./-/g') && pass {}" \
+  --prompt='pass::' \
+  --reverse )
+
+
+if [ -z "$PASSFILE" ]; then
+	exit 0
+fi
+
+RESP=$(cat <<EOF | fzf
+Autotype
+Username
+Password
+Page
+QR
+EOF
+);
+
+case "$RESP" in
+  Autotype)
+    swaymsg exec "source ~/.profile \
+      && ydotool type \"\$(pass get_user $PASSFILE)\" \
+      && ydotool key TAB \
+      && ydotool type \"\$(pass get_pass $PASSFILE)\""
+    ;;
+  Username)
+    swaymsg exec "source ~/.profile \
+      && ydotool type \"\$(pass get_user $PASSFILE)\""
+    ;;
+  Password)
+    swaymsg exec "source ~/.profile \
+      && ydotool type \"\$(pass get_pass $PASSFILE)\""
+    ;;
+  Page)
+    pass "$PASSFILE" | LESS=R less
+    ;;
+  QR)
+    swaymsg exec "pass show \"${PASSFILE}\" --qrcode"
+    ;;
+  *)
+    exit 1
+esac

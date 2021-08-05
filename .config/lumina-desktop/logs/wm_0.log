@@ -1,0 +1,53 @@
+Warning: Failed to open file(fluxbox.cat)
+for translation, using default messages.
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.menuFile
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.menuSearch
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.menuFile
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.menuSearch
+Setting default value
+Keys: Invalid key/modifier on line 26): OnWindowBorder Move1 :StartMoving
+Keys: Invalid key/modifier on line 27): OnLeftGrip Move1 :StartResizing bottomleft
+Keys: Invalid key/modifier on line 28): OnRightGrip Move1 :StartResizing bottomright
+Keys: Invalid key/modifier on line 37): OnTitlebar Double Mouse1 :Shade
+Keys: Invalid key/modifier on line 40): OnTitlebar Mouse1 :MacroCmd {Raise} {Focus} {ActivateTab}
+Keys: Invalid key/modifier on line 41): OnTitlebar Move1  :StartMoving
+Keys: Invalid key/modifier on line 44): OnTitlebar Mouse2 :Lower
+Keys: Invalid key/modifier on line 47): OnTitlebar Mouse3 :WindowMenu
+Keys: Invalid key/modifier on line 54): Mod1 Control Prev   :ArrangeWindowsStackRight (Layer=Normal)
+Keys: Invalid key/modifier on line 114): Mod4 F12 :SendToWorkspace 12
+Keys: Invalid key/modifier on line 128): Control Mod4 F12 :If {Matches (Layer=Normal)} {TakeToWorkspace 12}
+Keys: Invalid key/modifier on line 143): Print   :Exec lumina-screenshot
+Keys: Invalid key/modifier on line 144): Mod1 Home   :Exec lumina-open -brightnessup
+Keys: Invalid key/modifier on line 145): Mod1 End   :Exec lumina-open -brightnessdown
+Keys: Invalid key/modifier on line 146): Pause  :Exec xscreensaver-command -lock
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.menuFile
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.menuSearch
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+/usr/local/bin/bash: line 1: lumina-terminal: command not found
+Fluxbox: XIOError: lost connection to display.

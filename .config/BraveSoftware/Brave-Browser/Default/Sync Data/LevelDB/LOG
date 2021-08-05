@@ -1,0 +1,9 @@
+2021/08/04-17:22:30.515 19a03 Reusing MANIFEST /home/buckbucks/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/08/04-17:22:30.517 19a03 Recovering log #258
+2021/08/04-17:22:30.522 19a03 Reusing old log /home/buckbucks/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000258.log 
+2021/08/04-18:19:06.597 1b777 Level-0 table #263: started
+2021/08/04-18:19:06.629 1b777 Level-0 table #263: 55774 bytes OK
+2021/08/04-18:19:06.634 1b777 Delete type=0 #258
+2021/08/04-20:27:11.644 22164 Level-0 table #265: started
+2021/08/04-20:27:11.669 22164 Level-0 table #265: 55280 bytes OK
+2021/08/04-20:27:11.674 22164 Delete type=0 #262

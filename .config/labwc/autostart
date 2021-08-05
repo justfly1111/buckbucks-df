@@ -1,0 +1,10 @@
+# Example autostart file
+
+# Set background color
+#swaybg -c '#113344' >/dev/null 2>&1 &
+
+wf-background &
+wf-dock &
+wf-panel &
+wapanel &
+waybar &

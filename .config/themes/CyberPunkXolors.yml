@@ -1,0 +1,29 @@
+colors:
+  name: Cyber-Punk-XOLORS
+  # Default colors
+  primary:
+    background: '0x332a57'
+    foreground: '0xe5e5e5'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xff7092'
+    green:   '0x00fbac'
+    yellow:  '0xfffa6a'
+    blue:    '0x00bfff'
+    magenta: '0xdf95ff'
+    cyan:    '0x86cbfe'
+    white:   '0xffffff'
+
+  # Bright colors
+  bright:
+    black:   '0x000000'
+    red:     '0xff8aa4'
+    green:   '0x21f6bc'
+    yellow:  '0xfff787'
+    blue:    '0x1bccfd'
+    magenta: '0xe6aefe'
+    cyan:    '0x99d6fc'
+    white:   '0xffffff'
+

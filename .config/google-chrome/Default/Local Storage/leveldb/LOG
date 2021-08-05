@@ -1,0 +1,9 @@
+2021/07/28-16:58:11.115 194a2 Reusing MANIFEST /home/buckbucks/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2021/07/28-16:58:11.118 194a2 Recovering log #3
+2021/07/28-16:58:11.121 194a2 Reusing old log /home/buckbucks/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
+2021/07/29-00:06:52.320 529a7 Level-0 table #5: started
+2021/07/29-00:06:52.376 529a7 Level-0 table #5: 16027 bytes OK
+2021/07/29-00:06:52.384 529a7 Delete type=0 #3
+2021/07/29-05:14:27.863 6e3dc Level-0 table #7: started
+2021/07/29-05:14:27.917 6e3dc Level-0 table #7: 14844 bytes OK
+2021/07/29-05:14:27.935 6e3dc Delete type=0 #4

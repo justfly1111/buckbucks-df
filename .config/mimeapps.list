@@ -1,0 +1,7 @@
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+application/mbox=claws-mail.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/terminal=lilyterm.desktop
+x-scheme-handler/mailto=claws-mail.desktop

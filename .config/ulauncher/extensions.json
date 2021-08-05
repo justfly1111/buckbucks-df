@@ -1,0 +1,16 @@
+{
+    "com.github.ygun.ulauncher-nm": {
+        "id": "com.github.ygun.ulauncher-nm",
+        "url": "https://github.com/ygun/ulauncher-nm",
+        "updated_at": "2021-08-01T15:04:37.280068",
+        "last_commit": "036a0b3b24fb325f7aa648872c916d04966e7101",
+        "last_commit_time": "2021-02-03T13:17:59"
+    },
+    "com.github.brpaz.ulauncher-docker": {
+        "id": "com.github.brpaz.ulauncher-docker",
+        "url": "https://github.com/brpaz/ulauncher-docker",
+        "updated_at": "2021-08-01T15:04:38.421403",
+        "last_commit": "6213bfe156084aa4c049de24fb69acd7f1fba8f2",
+        "last_commit_time": "2019-12-03T20:15:17"
+    }
+}

@@ -1,0 +1,150 @@
+#!/bin/bash
+
+workdir="${XDG_DATA_HOME:-$HOME/.local/share/clipboard/history}"
+maxsize="${CLIPBOARD_MAX_SIZE:-30M}"
+histcount="${CLIPBOARD_HISTORY_COUNT:-300}"
+
+red=$(tput setaf 1)
+reset=$(tput sgr0)
+delim="\034"
+umask 077
+
+mkdir -p "$workdir"
+cd "$workdir" || exit
+
+daemon(){
+    echo "values may be subject to change"
+    echo "  workdir:   $workdir"
+    echo "  maxsize:   $maxsize"
+    echo "  histcount: $histcount"
+    echo "  current:   $(find "${workdir}" | wc | awk '{print $2}')"
+    wl-paste -w "$0" on-copy
+}
+
+on-copy(){
+    if [ -f "$workdir/.lock" ] ; then
+        echo "script is currently locked."
+        exit 0
+    fi
+
+    file="$(date +%s)"
+    cat | sed -e 's/^[ \t]*//' >"$file"
+    ext="$(file --mime-type "$file" | cut -d' ' -f2 | cut -d'/' -f2)"
+    mv "$file" "$file.$ext"
+    fdupes -idN .
+    find . -type f -size 0 -delete
+    find . -type f -size "+$maxsize" -delete
+    find . -type f -print0 \
+        | sort -zn \
+        | head -z --lines="-$histcount"  \
+        | xargs -r -0 rm
+}
+
+
+list(){
+    find . -type f -printf '%P\0' \
+        | sort -znr \
+        | while IFS= read -r -d '' file ; do
+        if [[ "$file" =~ \.(plain|x-python)$ ]]; then
+            printf "%s${delim}" "$file" "${red}${reset} $(sed ':a;N;$!ba;s/\n/+/g' < "$file")"
+        elif [[ "$file" =~ \.octet-stream$ ]]; then
+            printf "%s${delim}" "$file" "${red}﫳${reset} $(sed ':a;N;$!ba;s/\n/+/g' < "$file")"
+        else
+            printf "%s${delim}" "$file" "${red}${reset} $file"
+        fi
+        printf '\0'
+    done
+}
+
+parse-file(){
+        echo "$1" | awk '{print $1}' FS="$delim"
+}
+
+on-select(){
+        read -r -d '' result
+        if [ -z "$result" ]; then
+            exit 0
+        fi
+        wl-paste
+        local file
+        file="$(parse-file "${result}")"
+        wl-copy < "$file"
+        swaymsg exec "ydotool type $(wl-paste | sed -e "s/'/'\\\\''/g; 1s/^/'/; \$s/\$/'/")"
+}
+
+menu(){
+       list | fzf --read0 +s \
+         --info=hidden \
+         --reverse \
+         -d "${delim}" --nth ..2 --with-nth 2 \
+         --bind="del:execute-silent($0 delete {})+reload($0 list),f1:execute($0 qr {})" \
+         --prompt='clip:: ' \
+         --pointer='➜' \
+         --color="gutter:0,prompt:4" \
+         --no-multi \
+         --preview "$0 preview {}" \
+         --preview-window=down:3:wrap \
+         --ansi \
+         | on-select
+}
+
+usage(){
+    cat <<EOF
+Hello, this is the usuage menu. $0 supports the following arguments.
+
+ - deamon :: starts a process that watches the clipboard, calling on-copy on copy.
+ - on-copy :: saves clipped content to history folder. Dedups, and trims as well.
+ - menu :: clip history menu using fzf.
+ - list :: null terminated list that fzf populates. Need fo fzf reload.
+ - lock :: prevents daemon/on-clip from saving value. Use for passwords, etc.
+ - unlock :: like lock, but in reverse.
+ - preview :: the preview used by fzf. Requires clip file.
+ - delete :: deletes the file, requires file.
+ - qr :: bind to f1. Displays a qr code of the value.
+EOF
+}
+
+qr(){
+    local file
+    file="$(parse-file "$1")"
+    cat $file |
+        qrencode -o - \
+            --size=25 \
+            --background=161720 \
+            --foreground=AAB5C6 |
+        feh -
+}
+
+delete(){
+    local file
+    file="$(parse-file "$1")"
+    rm $file
+}
+
+preview(){
+    local file
+    file="$(parse-file "$1")"
+
+    if [ -f "$1" ]; then
+        kitty +kitten icat --silent --stdin=no "$1"
+        return
+    fi
+
+    bat -l bash --color always -pp "$file"
+}
+
+case "$1" in
+    daemon|on-copy|menu|list)
+        $1;;
+    lock)
+        touch "$workdir/.lock" ; echo "locked";;
+    unlock)
+        rm -f "$workdir/.lock" ; echo "unlocked";;
+    preview|delete|qr)
+        var=$1
+        shift ; $var $*;;
+    *)
+        usage;;
+esac
+
+exit;

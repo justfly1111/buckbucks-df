@@ -1,0 +1,832 @@
+{
+    "roots": {
+        "bookmark_bar": {
+            "children": [
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Unifi Protect",
+                    "type": "url",
+                    "url": "https://192.168.1.7/protect/settings/alerts",
+                    "visit_count": 0
+                }
+            ],
+            "description": "Bookmarks located in Bookmarks Toolbar",
+            "expanded": true,
+            "expanded_sidebar": true,
+            "name": "Bookmarks Toolbar",
+            "type": "folder"
+        },
+        "bookmark_menu": {
+            "children": [
+            ],
+            "description": "Bookmarks located in Bookmarks Menu",
+            "expanded": true,
+            "expanded_sidebar": true,
+            "name": "Bookmarks Menu",
+            "type": "folder"
+        },
+        "other": {
+            "children": [
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solene'% : Using the I2P network with OpenBSD and NixOS",
+                    "type": "url",
+                    "url": "https://dataswamp.org/~solene/2021-06-20-i2p-intro.html?utm_source=bsdweekly",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "PostgreSQL Tutorial - Learn PostgreSQL from Scratch",
+                    "type": "url",
+                    "url": "https://www.postgresqltutorial.com/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "PostgreSQL Cheat Sheet - Download the Cheat Sheet in PDF Format",
+                    "type": "url",
+                    "url": "https://www.postgresqltutorial.com/postgresql-cheat-sheet/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Simple steps to configure LDAPS with TLS certificates CentOS 7 Linux",
+                    "type": "url",
+                    "url": "https://www.golinuxcloud.com/configure-openldap-with-tls-certificates/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "OpenSSL create certificate chain with Root & Intermediate CA | GoLinuxCloud",
+                    "type": "url",
+                    "url": "https://www.golinuxcloud.com/openssl-create-certificate-chain-linux/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "List of Matrix servers",
+                    "type": "url",
+                    "url": "https://tatsumoto-ren.github.io/blog/list-of-matrix-servers.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Tutorial — fish-shell 3.2.2 documentation",
+                    "type": "url",
+                    "url": "file:///usr/local/share/doc/fish/tutorial.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Tutorial — fish-shell 3.2.2 documentation",
+                    "type": "url",
+                    "url": "file:///usr/local/share/doc/fish/tutorial.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solene'% : Using the I2P network with OpenBSD and NixOS",
+                    "type": "url",
+                    "url": "https://dataswamp.org/~solene/2021-06-20-i2p-intro.html?utm_source=bsdweekly",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solene'% : Using the I2P network with OpenBSD and NixOS",
+                    "type": "url",
+                    "url": "https://dataswamp.org/~solene/2021-06-20-i2p-intro.html?utm_source=bsdweekly",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Introduction to ZFS Replication | Klara Inc.",
+                    "type": "url",
+                    "url": "https://klarasystems.com/articles/introduction-to-zfs-replication/?utm_source=bsdweekly",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Environment Modules — Modules documentation",
+                    "type": "url",
+                    "url": "https://modules.readthedocs.io/en/latest/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗 | Another ${RANDOM} sysadmin sharing his experiences of work at IT industry.",
+                    "type": "url",
+                    "url": "https://vermaden.wordpress.com/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.",
+                    "type": "url",
+                    "url": "https://github.com/ibraheemdev/modern-unix",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Poudriere Guide",
+                    "type": "url",
+                    "url": "https://danschmid.de/en/blog/poudriere-guide",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "PostgreSQL Cheat Sheet - Download the Cheat Sheet in PDF Format",
+                    "type": "url",
+                    "url": "https://www.postgresqltutorial.com/postgresql-cheat-sheet/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "PostgreSQL: Documentation: 14: 2.4. Populating a Table With Rows",
+                    "type": "url",
+                    "url": "https://www.postgresql.org/docs/14/tutorial-populate.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "PostgreSQL: Documentation: 14: 2.4. Populating a Table With Rows",
+                    "type": "url",
+                    "url": "https://www.postgresql.org/docs/14/tutorial-populate.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "ZFS High Availability Filesystem With minio on FreeBSD",
+                    "type": "url",
+                    "url": "https://honeyguide.eu/posts/minio-fuse/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD Linux Compat GLIBCXX & GLIBC API Versions",
+                    "type": "url",
+                    "url": "https://honeyguide.eu/posts/freebsd-compat-cxxver/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "MinIO | Learn how to secure access to MinIO server with TLS",
+                    "type": "url",
+                    "url": "https://docs.min.io/docs/how-to-secure-access-to-minio-server-with-tls.html#using-open-ssl-with-ip",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "dRAID — OpenZFS documentation",
+                    "type": "url",
+                    "url": "https://openzfs.github.io/openzfs-docs/Basic%20Concepts/dRAID%20Howto.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Chimera Linux",
+                    "type": "url",
+                    "url": "https://github.com/chimera-linux",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "nat | Page 3 | Proxmox Support Forum",
+                    "type": "url",
+                    "url": "https://forum.proxmox.com/tags/nat/page-3",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD New Ports Index",
+                    "type": "url",
+                    "url": "https://bokut.in/freebsd-new-ports-index/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solved - Networking with Bhyve and Jails - guide | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/networking-with-bhyve-and-jails-guide.78302/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Multi-Networked BSD and Linux Systems Expose Private Interface Networked Services using Network Interface Traversing due to Weak Host Model | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/multi-networked-bsd-and-linux-systems-expose-private-interface-networked-services-using-network-interface-traversing-due-to-weak-host-model.78824/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solved - \"PF + Transparent Bridge + Squid\" finally working on FreeBSD 12.1(for OPNsense 12.7_7) | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/pf-transparent-bridge-squid-finally-working-on-freebsd-12-1-for-opnsense-12-7_7.78279/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "PPPoE from inside bhyve guest through VLAN | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/pppoe-from-inside-bhyve-guest-through-vlan.78213/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "pr and bridges and squids, oh my! | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/pr-and-bridges-and-squids-oh-my.76448/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "VLANs with bhyve guests not getting DHCP | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/vlans-with-bhyve-guests-not-getting-dhcp.77647/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Roma's Blog: Bhyve Networking Options",
+                    "type": "url",
+                    "url": "http://empt1e.blogspot.com/2016/10/bhyve-networking-options.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The FreeBSD Project | FreeBSD Handbook",
+                    "type": "url",
+                    "url": "https://docs.freebsd.org/en/books/handbook/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Roma's Blog",
+                    "type": "url",
+                    "url": "http://empt1e.blogspot.com/search?updated-max=2011-07-28T11:11:00-07:00&max-results=7&start=21&by-date=false",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Can't make bhyve with lagg failover work on wifi | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/cant-make-bhyve-with-lagg-failover-work-on-wifi.76042/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Michael's Daemonic Doodles | Arranging Your Virtual Network on FreeBSD",
+                    "type": "url",
+                    "url": "https://blog.grem.de/pages/ayvn.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Layer 3,4,7 Reverse Proxy | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/layer-3-4-7-reverse-proxy.78300/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "pr and bridges and squids, oh my! | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/pr-and-bridges-and-squids-oh-my.76448/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solved - pf NAT | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/pf-nat.77104/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Wireguard installation | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/wireguard-installation.75474/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "VPN tunnels and \"bind local address\" | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/vpn-tunnels-and-bind-local-address.80053/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "OSPF via OpenVPN to Edgerouter. Possible? | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/ospf-via-openvpn-to-edgerouter-possible.80084/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "general project using haproxy | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/general-project-using-haproxy.79994/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solved - FreeBSD + pfatt - Possible? | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/freebsd-pfatt-possible.78645/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Configuring Hetzner Cloud Private Networking | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/configuring-hetzner-cloud-private-networking.79962/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solved - VLAN Initialization Questions | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/vlan-initialization-questions.79674/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Solved - FreeBSD IPv6 basics | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/freebsd-ipv6-basics.80878/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Bhyve, Public IP on guest visible to all. How? | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/threads/bhyve-public-ip-on-guest-visible-to-all-how.75232/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "𝚟𝚎𝚛𝚖𝚊𝚍𝚎𝚗 | Another ${RANDOM} sysadmin sharing his experiences of work at IT industry.",
+                    "type": "url",
+                    "url": "https://vermaden.wordpress.com/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "linux-browser-installer/linux-browser-installer at main · mrclksr/linux-browser-installer",
+                    "type": "url",
+                    "url": "https://github.com/mrclksr/linux-browser-installer/blob/main/linux-browser-installer",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreshPorts -- misc/clifm: Non-curses, KISS file manager for the terminal",
+                    "type": "url",
+                    "url": "https://www.freshports.org/misc/clifm/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Common Operations · leo-arch/clifm Wiki",
+                    "type": "url",
+                    "url": "https://github.com/leo-arch/clifm/wiki/Common-Operations#basic-usage-examples",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Managing FreeBSD Jails with Ansible - part 1 | eoli3n",
+                    "type": "url",
+                    "url": "https://eoli3n.github.io/2021/06/08/jails-part-1.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD Development | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/forums/freebsd-development.34/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Log in | The FreeBSD Forums",
+                    "type": "url",
+                    "url": "https://forums.freebsd.org/members/vermaden.761/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Related projects · WayfireWM/wayfire Wiki",
+                    "type": "url",
+                    "url": "https://github.com/WayfireWM/wayfire/wiki/Related-projects",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Daniel Eklöf / yambar · GitLab",
+                    "type": "url",
+                    "url": "https://gitlab.com/dnkl/yambar",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Home · swaywm/wlr-protocols Wiki",
+                    "type": "url",
+                    "url": "https://github.com/swaywm/wlr-protocols/wiki",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "psnszsn/wingpanel-layer-shell: Stylish top panel that holds indicators and spawns an application launcher",
+                    "type": "url",
+                    "url": "https://github.com/psnszsn/wingpanel-layer-shell",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "timgott/wayfire-shadows: Wayfire plugin that adds window shadows",
+                    "type": "url",
+                    "url": "https://github.com/timgott/wayfire-shadows",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Javyre/swayfire: Sway/I3 inspired tiling window manager for Wayfire",
+                    "type": "url",
+                    "url": "https://github.com/Javyre/swayfire",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Simple steps to configure LDAPS with TLS certificates CentOS 7 Linux",
+                    "type": "url",
+                    "url": "https://www.golinuxcloud.com/configure-openldap-with-tls-certificates/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Basics OpenLDAP Tutorial for Beginners - Understanding Terminologies & Usage",
+                    "type": "url",
+                    "url": "https://www.golinuxcloud.com/ldap-tutorial-for-beginners-configure-linux/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "freebsd tutorials at DuckDuckGo",
+                    "type": "url",
+                    "url": "https://duckduckgo.com/?q=freebsd+tutorials&t=qupzilla&ia=web",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD Tutorials, Notes, Links & Manual Pages",
+                    "type": "url",
+                    "url": "http://freebsd.vangeyn.net/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The Heart of the System: On FreeBSD and Active Directory Integration: Kerberos and LDAP",
+                    "type": "url",
+                    "url": "https://heartofthesystem.blogspot.com/2011/06/on-freebsd-and-active-directory.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to integrate Active Directory with FreeBSD 10.0 using security/sssd? - Server Fault",
+                    "type": "url",
+                    "url": "https://serverfault.com/questions/599200/how-to-integrate-active-directory-with-freebsd-10-0-using-security-sssd",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The FreeBSD Project | LDAP Authentication",
+                    "type": "url",
+                    "url": "https://docs.freebsd.org/en/articles/ldap-auth/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD 11 SAMBA Active Directory Member Server – SAMBA.Ninja",
+                    "type": "url",
+                    "url": "https://samba.ninja/2018/08/freebsd-11-active-directory-member-server/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Heimdal Kerberos, SASL, and OpenLDAP Integration on FreeBSD – Part I – loga.us",
+                    "type": "url",
+                    "url": "https://loga.us/2015/12/14/heimdal-kerberos-sasl-openldap-freebsd-part-1/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "ldap - FreeBSD: OpenLDAP, SASL, and GSSAPI - Server Fault",
+                    "type": "url",
+                    "url": "https://serverfault.com/questions/279196/freebsd-openldap-sasl-and-gssapi",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "psSense , AD, Kerberos, FreeBSD, Samba,Squid,SquidGuard",
+                    "type": "url",
+                    "url": "https://support.pfsense.narkive.com/pJ4EgEqc/pssense-ad-kerberos-freebsd-samba-squid-squidguard",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Kerberos V5 Installation Guide",
+                    "type": "url",
+                    "url": "https://web.mit.edu/kerberos/krb5-1.7/krb5-1.7/doc/krb5-install.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "freebsd mcfly at DuckDuckGo",
+                    "type": "url",
+                    "url": "https://duckduckgo.com/?q=freebsd+mcfly&t=qupzilla&ia=web",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "MIT Kerberos on FreeBSD",
+                    "type": "url",
+                    "url": "http://freebsd.so14k.com/freebsd_mit_kerberos.shtml",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Rhyous » Blog Archive » Connecting to Active Directory with Kerberos on FreeBSD",
+                    "type": "url",
+                    "url": "https://www.rhyous.com/2010/05/07/connecting-to-active-directory-with-kerberos-on-freebsd/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The FreeBSD Project | LDAP Authentication",
+                    "type": "url",
+                    "url": "https://docs.freebsd.org/en/articles/ldap-auth/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Simple steps to configure LDAPS with TLS certificates CentOS 7 Linux",
+                    "type": "url",
+                    "url": "https://www.golinuxcloud.com/configure-openldap-with-tls-certificates/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Basics OpenLDAP Tutorial for Beginners - Understanding Terminologies & Usage",
+                    "type": "url",
+                    "url": "https://www.golinuxcloud.com/ldap-tutorial-for-beginners-configure-linux/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "freebsd tutorials at DuckDuckGo",
+                    "type": "url",
+                    "url": "https://duckduckgo.com/?q=freebsd+tutorials&t=qupzilla&ia=web",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD Tutorials, Notes, Links & Manual Pages",
+                    "type": "url",
+                    "url": "http://freebsd.vangeyn.net/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The Heart of the System: On FreeBSD and Active Directory Integration: Kerberos and LDAP",
+                    "type": "url",
+                    "url": "https://heartofthesystem.blogspot.com/2011/06/on-freebsd-and-active-directory.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to integrate Active Directory with FreeBSD 10.0 using security/sssd? - Server Fault",
+                    "type": "url",
+                    "url": "https://serverfault.com/questions/599200/how-to-integrate-active-directory-with-freebsd-10-0-using-security-sssd",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The FreeBSD Project | LDAP Authentication",
+                    "type": "url",
+                    "url": "https://docs.freebsd.org/en/articles/ldap-auth/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD 11 SAMBA Active Directory Member Server – SAMBA.Ninja",
+                    "type": "url",
+                    "url": "https://samba.ninja/2018/08/freebsd-11-active-directory-member-server/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Heimdal Kerberos, SASL, and OpenLDAP Integration on FreeBSD – Part I – loga.us",
+                    "type": "url",
+                    "url": "https://loga.us/2015/12/14/heimdal-kerberos-sasl-openldap-freebsd-part-1/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "ldap - FreeBSD: OpenLDAP, SASL, and GSSAPI - Server Fault",
+                    "type": "url",
+                    "url": "https://serverfault.com/questions/279196/freebsd-openldap-sasl-and-gssapi",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "psSense , AD, Kerberos, FreeBSD, Samba,Squid,SquidGuard",
+                    "type": "url",
+                    "url": "https://support.pfsense.narkive.com/pJ4EgEqc/pssense-ad-kerberos-freebsd-samba-squid-squidguard",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "freebsd mcfly at DuckDuckGo",
+                    "type": "url",
+                    "url": "https://duckduckgo.com/?q=freebsd+mcfly&t=qupzilla&ia=web",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Kerberos V5 Installation Guide",
+                    "type": "url",
+                    "url": "https://web.mit.edu/kerberos/krb5-1.7/krb5-1.7/doc/krb5-install.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "MIT Kerberos on FreeBSD",
+                    "type": "url",
+                    "url": "http://freebsd.so14k.com/freebsd_mit_kerberos.shtml",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Rhyous » Blog Archive » Connecting to Active Directory with Kerberos on FreeBSD",
+                    "type": "url",
+                    "url": "https://www.rhyous.com/2010/05/07/connecting-to-active-directory-with-kerberos-on-freebsd/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Manual Deployment on FreeBSD — Ceph Documentation",
+                    "type": "url",
+                    "url": "https://docs.ceph.com/en/latest/install/manual-freebsd-deployment/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Intro to Ceph — Ceph Documentation",
+                    "type": "url",
+                    "url": "https://docs.ceph.com/en/latest/start/intro/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD Implementation details — Ceph Documentation",
+                    "type": "url",
+                    "url": "https://docs.ceph.com/en/latest/dev/freebsd/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Configuring the Firewall to Work with Kerberos Authentication Protocol | DataSunrise - Data & DB Security",
+                    "type": "url",
+                    "url": "https://www.datasunrise.com/blog/professional-info/configuring-firewall-to-work-with-kerberos/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FreeBSD authentication against Samba 4 LDAP – Michael Warren Lucas",
+                    "type": "url",
+                    "url": "https://mwl.io/archives/1897",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "My Waybar config",
+                    "type": "url",
+                    "url": "https://gist.github.com/atsuya/e58ef632b31063b82c1c7510ed46d7bb",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "gamescope/src at freebsd · jbeich/gamescope",
+                    "type": "url",
+                    "url": "https://github.com/jbeich/gamescope/tree/freebsd/src",
+                    "visit_count": 0
+                }
+            ],
+            "description": "All other bookmarks",
+            "expanded": true,
+            "expanded_sidebar": true,
+            "name": "Unsorted Bookmarks",
+            "type": "folder"
+        }
+    },
+    "version": 1
+}

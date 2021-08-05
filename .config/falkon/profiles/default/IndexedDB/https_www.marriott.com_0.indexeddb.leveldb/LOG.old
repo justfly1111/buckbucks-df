@@ -1,0 +1,5 @@
+2021/07/04-06:06:00.767 56a26600 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_www.marriott.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/04-06:06:35.078 ffffffff9ee94700 Level-0 table #5: started
+2021/07/04-06:06:35.088 ffffffff9ee94700 Level-0 table #5: 39597 bytes OK
+2021/07/04-06:06:35.091 ffffffff9ee94700 Delete type=0 #3
+2021/07/04-06:06:35.091 ffffffff9ee94700 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

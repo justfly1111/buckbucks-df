@@ -1,0 +1,5 @@
+2021/07/11-09:09:06.440 2c7c1300 Reusing MANIFEST /home/buckbucks/.config/falkon/profiles/default/IndexedDB/https_www.tomshardware.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/11-09:11:24.914 fffffffff1359300 Level-0 table #5: started
+2021/07/11-09:11:24.918 fffffffff1359300 Level-0 table #5: 5731 bytes OK
+2021/07/11-09:11:24.920 fffffffff1359300 Delete type=0 #3
+2021/07/11-09:11:24.921 fffffffff1359300 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

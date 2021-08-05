@@ -1,0 +1,25 @@
+colors:
+  name: Relaxed-and-Chilled
+  author: ""
+  primary:
+    background: '#141414'
+    foreground: '#eaeaea'
+  normal:
+    black:   '#141414'
+    red:     '#ff868e'
+    green:   '#60b48a'
+    yellow:  '#dfdf78'
+    blue:    '#6bbdf3'
+    magenta: '#935FA7'
+    cyan:    '#70c1ff'
+    white:   '#eaeaea'
+
+  bright:
+    black:   '#b2b2b2'
+    red:     '#ff868e'
+    green:   '#60b48a'
+    yellow:  '#dfdf78'
+    blue:    '#6bbdf3'
+    magenta: '#935FA7'
+    cyan:    '#70c1ff'
+    white:   '#eaeaea'
