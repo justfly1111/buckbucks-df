@@ -1,0 +1,2 @@
+option('enable_windecor', type: 'boolean', value: 'true', description: 'Compile and install windecor plugin')
+option('enable_dbusqt', type: 'boolean', value: 'true', description: 'Compile and install dbusqt plugin')

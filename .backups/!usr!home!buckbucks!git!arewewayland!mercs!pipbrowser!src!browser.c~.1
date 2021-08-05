@@ -1,0 +1,210 @@
+/*
+ *  Copyright (C) 2019-2020 Scoopta
+ *  This file is part of PIP Browser
+ *  PIP Browser is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    PIP Browser is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with PIP Browser.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#include <browser.h>
+
+static uint64_t width, height;
+static int64_t x, y;
+static GtkWidget* window;
+static struct wl_display* wl;
+static struct wl_surface* wl_surface;
+static struct zwlr_layer_shell_v1* shell;
+static struct zwlr_layer_surface_v1* surface;
+
+struct cmd_info {
+	GtkWidget* browser;
+	char* cmd;
+};
+
+static void nop() {}
+
+static void add_interface(void* data, struct wl_registry* registry, uint32_t name, const char* interface, uint32_t version) {
+	(void) data;
+	if(strcmp(interface, zwlr_layer_shell_v1_interface.name) == 0) {
+		shell = wl_registry_bind(registry, name, &zwlr_layer_shell_v1_interface, version);
+	}
+}
+
+static void update_surface_pos(bool rt) {
+	if(x >= 0 && y >= 0) {
+		zwlr_layer_surface_v1_set_margin(surface, y, 0, 0, x);
+		zwlr_layer_surface_v1_set_anchor(surface, ZWLR_LAYER_SURFACE_V1_ANCHOR_TOP | ZWLR_LAYER_SURFACE_V1_ANCHOR_LEFT);
+	}
+	if(rt) {
+		wl_surface_commit(wl_surface);
+		wl_display_roundtrip(wl);
+	}
+}
+
+static void update_surface_size(bool rt) {
+	zwlr_layer_surface_v1_set_size(surface, width, height);
+	if(rt) {
+		wl_surface_commit(wl_surface);
+		wl_display_roundtrip(wl);
+		gtk_window_set_default_size(GTK_WINDOW(window), width, height);
+		gtk_window_resize(GTK_WINDOW(window), width, height);
+	}
+}
+
+static void config_surface(void* data, struct zwlr_layer_surface_v1* surface, uint32_t serial, uint32_t width, uint32_t height) {
+	(void) data;
+	(void) width;
+	(void) height;
+	zwlr_layer_surface_v1_ack_configure(surface, serial);
+}
+
+static void setup_surface(void) {
+	update_surface_size(false);
+	update_surface_pos(false);
+}
+
+static char* get_fifo() {
+	char* tmp = getenv("TMPDIR");
+	if(tmp == NULL) {
+		tmp = "/tmp";
+	}
+	char* fifo_path = utils_concat(2, tmp, "/pipcontrol");
+	return fifo_path;
+}
+
+static gboolean idle_add(gpointer data) {
+	struct cmd_info* cmd = data;
+
+	long offset;
+	char* space = strchr(cmd->cmd, ' ');
+	if(space == NULL) {
+		offset = strlen(cmd->cmd);
+	} else {
+		offset = space - cmd->cmd;
+	}
+
+	char* args = NULL;
+
+	if(space != NULL) {
+		args = space + 1;
+	}
+
+	if(strncmp(cmd->cmd, "url", offset) == 0) {
+		if(args != NULL) {
+			webkit_web_view_load_uri(WEBKIT_WEB_VIEW(cmd->browser), args);
+		}
+	} else if(strncmp(cmd->cmd, "forward", offset) == 0) {
+		webkit_web_view_go_forward(WEBKIT_WEB_VIEW(cmd->browser));
+	} else if(strncmp(cmd->cmd, "back", offset) == 0) {
+		webkit_web_view_go_back(WEBKIT_WEB_VIEW(cmd->browser));
+	} else if(strncmp(cmd->cmd, "exit", offset) == 0) {
+		char* fifo = get_fifo();
+		unlink(fifo);
+		free(fifo);
+		exit(0);
+	} else if(strncmp(cmd->cmd, "move", offset) == 0) {
+		if(args != NULL) {
+			space = strchr(args, ' ');
+			*space = 0;
+			x = strtol(args, NULL, 10);
+			y = strtol(space + 1, NULL, 10);
+			update_surface_pos(true);
+		}
+	} else if(strncmp(cmd->cmd, "resize", offset) == 0) {
+		if(args != NULL) {
+			space = strchr(args, ' ');
+			*space = 0;
+			width = strtol(args, NULL, 10);
+			height = strtol(space + 1, NULL, 10);
+			update_surface_size(true);
+		}
+	} else if(strncmp(cmd->cmd, "search", offset) == 0) {
+		if(args != NULL) {
+			char* url = utils_concat(2, "https://duckduckgo.com?q=", args);
+			webkit_web_view_load_uri(WEBKIT_WEB_VIEW(cmd->browser), url);
+			free(url);
+		}
+	}
+
+	free(cmd->cmd);
+	free(cmd);
+	return FALSE;
+}
+
+static void* do_fifo(void* data) {
+	char* fifo_path = get_fifo();
+	mkfifo(fifo_path, S_IRUSR | S_IWUSR);
+	while(true) {
+		int fd = open(fifo_path, O_RDONLY);
+		int size = fcntl(fd, &fifo_path)
+		//GETPIPE_SZ);
+		char* buf = malloc(size);
+		ssize_t count = read(fd, buf, size);
+		*(buf + count) = 0;
+
+		struct cmd_info* cmd = malloc(sizeof(struct cmd_info));
+		cmd->browser = data;
+		cmd->cmd = buf;
+		close(fd);
+		g_idle_add(idle_add, cmd);
+	}
+	return NULL;
+}
+
+void browser_init(struct map* config) {
+	char* url = map_get(config, "url");
+	if(url == NULL) {
+		fprintf(stderr, "Uh oh, I'm lost, I don't know where to go\n");
+		exit(1);
+	}
+	width = strtol(config_get(config, "width", "512"), NULL, 10);
+	height = strtol(config_get(config, "height", "512"), NULL, 10);
+	x = strtol(config_get(config, "x", "-1"), NULL, 10);
+	y = strtol(config_get(config, "y", "-1"), NULL, 10);
+
+	window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+	gtk_widget_realize(window);
+	gtk_widget_set_name(window, "window");
+	gtk_window_set_default_size(GTK_WINDOW(window), width, height);
+	gtk_window_resize(GTK_WINDOW(window), width, height);
+	gtk_window_set_resizable(GTK_WINDOW(window), FALSE);
+	gtk_window_set_decorated(GTK_WINDOW(window), FALSE);
+	GdkDisplay* disp = gdk_display_get_default();
+	wl = gdk_wayland_display_get_wl_display(disp);
+	struct wl_registry* registry = wl_display_get_registry(wl);
+	struct wl_registry_listener listener = {
+		.global = add_interface,
+		.global_remove = nop
+	};
+	wl_registry_add_listener(registry, &listener, NULL);
+	wl_display_roundtrip(wl);
+	GdkWindow* gdk_win = gtk_widget_get_window(window);
+	gdk_wayland_window_set_use_custom_surface(gdk_win);
+	wl_surface = gdk_wayland_window_get_wl_surface(gdk_win);
+	surface = zwlr_layer_shell_v1_get_layer_surface(shell, wl_surface, NULL, ZWLR_LAYER_SHELL_V1_LAYER_OVERLAY, "pipbrowser");
+	setup_surface();
+	struct zwlr_layer_surface_v1_listener* surface_listener = malloc(sizeof(struct zwlr_layer_surface_v1_listener));
+	surface_listener->configure = config_surface;
+	surface_listener->closed = nop;
+	zwlr_layer_surface_v1_add_listener(surface, surface_listener, NULL);
+	wl_surface_commit(wl_surface);
+	wl_display_roundtrip(wl);
+
+	GtkWidget* browser = webkit_web_view_new();
+	webkit_web_view_load_uri(WEBKIT_WEB_VIEW(browser), url);
+
+	gtk_container_add(GTK_CONTAINER(window), browser);
+	gtk_widget_show_all(window);
+
+	pthread_t thread;
+	pthread_create(&thread, NULL, do_fifo, browser);
+}

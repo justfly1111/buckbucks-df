@@ -1,0 +1,48 @@
+# $FreeBSD$
+#
+#  This file is read when going to multi-user and its contents piped thru
+#  ``sysctl'' to adjust kernel values.  ``man 5 sysctl.conf'' for details.
+#
+
+# Uncomment this to prevent users from seeing information about processes that
+# are being run under another UID.
+#security.bsd.see_other_uids=0
+security.bsd.see_other_uids=0
+security.bsd.see_other_gids=0
+security.bsd.see_jail_proc=0
+security.bsd.unprivileged_read_msgbuf=0
+security.bsd.unprivileged_proc_debug=0
+kern.randompid=1
+kern.elf32.aslr.enable=1
+kern.elf32.aslr.pie_enable=1
+kern.elf32.aslr.honor_sbrk=0
+kern.elf64.aslr.enable=1
+kern.elf64.aslr.pie_enable=1
+kern.elf64.aslr.honor_sbrk=0
+vfs.zfs.min_auto_ashift=12
+net.link.lagg.failover_rx_all=1
+kern.ipc.soacceptqueue=1024  # (default 128)
+kern.ipc.maxsockbuf=8388608
+net.inet.tcp.sendspace=262144  # (default 32768)
+net.inet.tcp.recvspace=262144  # (default 65536)
+net.inet.tcp.sendbuf_max=16777216
+net.inet.tcp.recvbuf_max=16777216
+net.inet.tcp.sendbuf_inc=32768  # (default 8192)
+net.local.stream.sendspace=16384  # default (8192)
+net.local.stream.recvspace=16384  # default (8192)
+net.inet.raw.maxdgram=16384
+net.inet.raw.recvspace=16384
+net.inet.tcp.abc_l_var=44          # (default 2)
+net.inet.tcp.initcwnd_segments=44  # (default 10)
+net.inet.tcp.mssdflt=1448  # (default 536)
+net.inet.tcp.minmss=524  # (default 216)
+net.inet.tcp.cc.algorithm=htcp
+net.inet.tcp.cc.htcp.adaptive_backoff=1
+net.inet.tcp.cc.htcp.rtt_scaling=1
+net.inet.tcp.syncookies=0
+net.inet.tcp.nolocaltimewait=1
+net.inet.tcp.tso=0
+net.inet.ip.intr_queue_maxlen=2048  # (default 256)
+net.route.netisr_maxqlen=2048       # (default 256)
+net.inet.ip.random_id=1
+kern.evdev.rcpt_mask=12

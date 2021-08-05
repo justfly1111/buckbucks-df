@@ -1,0 +1,31 @@
+font=FuraCode Nerd Font Light 11
+width=450
+padding=20,20
+background-color=#161720ee
+border-color=#12151a
+text-color=#d6e5fb
+default-timeout=8000
+progress-color=over #d6e5fb
+
+icons=1
+layer=overlay
+group-by=summary
+icon-path=~/.icons/Boston
+
+[hidden]
+background-color=#bfbfbfff
+format=+ %h
+
+[urgency=high]
+background-color=#1f212eee
+border-color=#f0185a00
+text-color=#f0185a
+ignore-timeout=true
+default-timeout=0
+
+[!expiring]
+background-color=#555555ff
+text-color=#eeeeeeff
+
+[grouped]
+format=<b>%s</b> ✖ %g\n%b

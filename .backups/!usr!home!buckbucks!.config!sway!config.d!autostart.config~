@@ -1,0 +1,46 @@
+exec /var/xscreensaver/bin/xscreensaver -nosplash
+
+### Make things a little easier easier on the eyes. #logs to /tmp/gammastep.log
+exec --no-startup-id gammastep  2>&1 >/tmp/gammastep.log
+
+### Clipboard manager #logs to /tmp/clipboardmanager.log
+exec --no-startup-id $scripts/clipboard daemon 2>&1 >/tmp/clipboardmanager.log
+
+###  Notifications #logs to /tmp/mako.log
+exec --no-startup-id mako --icons 1 --markup 1 --actions 1 --padding 10 \
+	 --background-color "#81a1c1" --default-timeout 10000 2>&1 >/tmp/mako.log
+
+### ydotool - logs to /tmp/ydotoold.log
+exec --no-startup-id ydotoold 2>&1 >/tmp/ydotoold.log
+
+### Autotiling
+exec --no-startup-id autotiling -w 1 3 5
+
+# Peripherals
+exec backlight 80%
+exec mixer vol 100%
+exec mixer speaker 100%
+exec mixer pcm 100%cd
+
+# Dynamic workspace names
+exec_always /home/buckbucks/scripts/swayinfo/wsdnames.sh
+
+# Scratchpad tray indicator
+exec_always /home/buckbucks/scripts/swayinfo/scratchpad_indicator.py 500
+
+# Workaround to run Java swing (broken) applications (e.g. IntelliJ)
+exec wmname LG3D
+
+# Authentication
+exec lxpolkit
+exec gnome-keyring-daemon --start -bindsym-components=pkcs11
+
+exec_always nwg-dock
+exec_always lavalauncher
+
+# wob configuration
+exec_always {
+    killall -q wob || true
+    mkfifo /tmp/wobpipe
+    tail -f /tmp/wobpipe | $scripts/sanitize_wob | wob
+}

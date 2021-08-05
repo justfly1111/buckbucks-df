@@ -1,0 +1,30 @@
+[background]
+cycle_timeout = 150
+image = /usr/home/doeboy1111/Pictures
+preserve_aspect = false
+randomize = true
+
+[dock]
+autohide_duration = 300
+dock_height = 100
+icon_height = 72
+position = top
+
+[panel]
+autohide = false
+layer = top
+position = bottom
+volume_display_timeout = 2.500000
+launcher_fxite = fxite.desktop
+launcher_terminal1 = sakura.desktop
+launcher_terminal2 = guake.desktop
+launcher_terminal3 = foot.desktop
+menu_fuzzy_search = true
+menu_icon = /usr/local/share/wayfire/icons/wayfire.png
+menu_logout_command = wlogout
+network_onclick_command = default
+network_status = 2
+network_status_use_color = true
+widgets_center = clock
+widgets_left = spacing4 menu spacing18 launchers
+widgets_right = network spacing6 battery spacing12

@@ -1,0 +1,110 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["network", "custom/network"],
+    "modules-center": ["custom/media", "custom/myweather", "custom/battery-warning"],
+    "modules-right": ["custom/keyboard", "battery", "backlight", "pulseaudio", "clock", "custom/quit"],
+   
+	"sway/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "interval": 1,
+        "format": "{:%a, %d. %b  %H:%M:%S}",
+        "on-click": "exec /home/buckbucks/scripts/swayinfo/calendar.py",
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "bat":"BAT1",
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-discharging": " {capacity}%",
+        "format-alt": "{icon} {time}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "custom/battery-warning": {
+		"interval": 5,
+		"exec": "/home/buckbucks/scripts/swayinfo/battery_warning.py"
+    },
+    "network": {
+      "interval": 3,
+      "interface": "lagg0",
+      "format": "{ifname}",
+      "format-wifi": "{essid} ({signalStrength}%) ",
+      "format-ethernet": "{bandwidthUpBits} {bandwidthDownBits}",
+      "format-disconnected": "", //An empty format will hide the module.
+      "tooltip-format": "{ifname}",
+      "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+      "tooltip-format-ethernet": "{ifname} {ipaddr}",
+      "tooltip-format-disconnected": "Disconnected",
+      "max-length": 50
+    },
+    "custom/network": {
+				"exec": "/home/buckbucks/.config/waybar/get_network.sh",
+				"format": "{ifname}",
+				"interval": 1,
+				"interface": "lagg0",
+	      "format": "{ifname}",
+	      "format-wifi": "{essid} ({signalStrength}%) ",
+	      "format-ethernet": "{bandwidthUpBits} {bandwidthDownBits}",
+	      "format-disconnected": "", //An empty format will hide the module.
+    },
+    "custom/scratchpad": {
+        "interval": 1,
+        "return-type": "json",
+        "exec": "/home/buckbucks/scripts/swayinfo/config/waybar/modules/scratchpad.py",
+        "on-click": "exec swaymsg scratchpad show",
+        "escape": true
+    },
+	"custom/myweather": {
+        "interval": 1800,
+        "return-type": "text",
+        "exec": "/home/buckbucks/scripts/swayinfo/weather.py -IdtS",
+        "on-click": "/home/buckbucks/scripts/swayinfo/weather.py -D",
+        "escape": true,
+        "tooltip": false
+    },
+    "backlight": {
+		"device": "intel_backlight",
+		"format": "{icon} {percent}%",
+		"format-icons": ["", "", "", "", ""],
+		"on-scroll-up": "backlight +10",
+		"on-scroll-down": "backlight -10"
+	},
+    "custom/media": {
+        "format": "{}",
+        "interval": 1,
+        "exec": "/home/buckbucks/.config/waybar/get_media.sh"
+    },
+    "custom/keyboard": {
+        "format": " {}",
+        "interval": 1,
+        "exec": "$HOME/.config/waybar/get_kbdlayout.sh"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol"
+    },
+    "custom/quit": {
+        "format": "",
+        "on-click": "wlogout"
+    }
+}

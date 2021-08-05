@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Use <openbox_config> as root element for openbox compatibility -->
+<openbox_config>
+
+<!-- labwc specific settings - additional to openbox -->
+<lab>
+  <!-- Use server-side decorations for xdg-shell views if CSD can be disabled -->
+  <xdg_shell_server_side_deco>yes</xdg_shell_server_side_deco>
+</lab>
+
+<focus>
+  <followMouse>no</followMouse>
+  <raiseOnFocus>no</raiseOnFocus>
+</focus>
+
+<theme>
+  <name>Clearlooks-3.4</name>
+  <!-- This font size also determintes the height of the window title bar -->
+  <font place="ActiveWindow">
+    <name>Sans</name>
+    <size>10</size>
+  </font>
+</theme>
+
+<!-- see labwc-actions(5) for a list of supported actions -->
+<keyboard>
+  <keybind key="A-Escape">
+    <action name="Exit"/>
+  </keybind>
+  <keybind key="A-Tab">
+    <action name="NextWindow"/>
+  </keybind>
+  <keybind key="A-F3">
+    <action name="Execute"><command>bemenu-run</command></action>
+  </keybind>
+</keyboard>
+
+</openbox_config>

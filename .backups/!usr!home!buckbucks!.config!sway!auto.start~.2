@@ -1,0 +1,32 @@
+#
+	# Peripherals
+		exec backlight 80%
+		exec mixer vol 100%
+		exec mixer speaker 100%
+		exec mixer pcm 100%cd
+		exec redshift -m wayland -l 52.25:22.12
+
+	# Notifications
+		exec mako --icons 1 --markup 1 --actions 1 --padding 10 --background-color "#81a1c1" --default-timeout 10000
+
+	# Dynamic workspace names
+		exec_always /home/buckbucks/scripts/swayinfo/wsdnames.sh
+
+	# Autotiling
+		exec autotiling -w 1 3 5
+
+	# Scratchpad tray indicator
+	  exec_always /home/buckbucks/scripts/swayinfo/scratchpad_indicator.py 500
+
+	# Workaround to run Java swing (broken) applications (e.g. IntelliJ)
+		exec wmname LG3D
+
+	# Authentication
+		exec lxpolkit
+		exec gnome-keyring-daemon --start -bindsym-components=pkcs11
+		exec nwg-dock
+		exec_always lavalauncher
+# Your preferred application launcher
+
+	set $menu sirula | xargs swaymsg exec
+	set $drun sirula | xargs swaymsg exec

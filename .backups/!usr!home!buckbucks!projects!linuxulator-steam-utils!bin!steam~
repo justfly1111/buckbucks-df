@@ -1,0 +1,134 @@
+#!/usr/bin/env ruby
+# encoding: UTF-8
+
+#TODO: DBUS_SYSTEM_BUS_ADDRESS?
+
+def check_requirements
+
+  reqs = []
+
+  reqs << '32-bit Linux emulation support' if `sysctl -nq kern.features.linux`  .to_i != 1
+  reqs << '64-bit Linux emulation support' if `sysctl -nq kern.features.linux64`.to_i != 1
+
+  mounted_filesystems = `mount -p`
+
+  for fs, path in {
+    'linprocfs' => '/compat/linux/proc',
+    'linsysfs'  => '/compat/linux/sys',
+    'tmpfs'     => '/compat/linux/dev/shm',
+    'fdescfs'   => '/dev/fd',
+    'procfs'    => '/proc'
+  }
+    reqs << "#{fs} mounted at #{path}" if not mounted_filesystems =~ /#{Regexp.escape(path)}\s+#{fs}/
+  end
+
+  reqs << 'write access to /compat/linux/dev/shm' if not File.writable?('/compat/linux/dev/shm')
+  reqs
+end
+
+def linux_run(cmd)
+  `env PATH="#{__dir__}/../lxbin:/compat/linux/bin" /compat/linux/bin/bash -c \"#{cmd}\"`.chomp
+end
+
+def safe_system(*args)
+  raise "Command failed: #{args.join(' ').inspect}" if not system(*args)
+end
+
+requirements = check_requirements()
+if not requirements.empty?
+  STDERR.puts 'Please, make sure the following requirements are satisfied:'
+  for req in requirements
+    STDERR.puts "  * #{req}"
+  end
+  exit 1
+end
+
+if not File.readable?(__dir__ + '/../lib32/steamfix/steamfix.so')
+  STDERR.puts "Can't find steamfix.so"
+  exit 1
+end
+
+steam_root         = ENV['HOME'] + '/.steam/steam'
+steam_runtime_root = ENV['HOME'] + '/.steam/steam/ubuntu12_32/steam-runtime'
+
+if not File.exists?(steam_root)
+  STDERR.puts "Steam doesn't appear to be installed for user #{ENV['USER']}. Perhaps you forgot to run steam-install?"
+  exit 1
+end
+
+if not File.exists?(steam_runtime_root)
+  STDERR.puts "Can't find steam-runtime"
+  exit 1
+end
+
+if ENV['LSU_COREDUMP'] != '1'
+  Process.setrlimit(:CORE, 0)
+end
+
+# https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=248225
+Process.setrlimit(:STACK, 8192 * 1024)
+
+steam_runtime_bin_path = linux_run("#{steam_runtime_root}/setup.sh --print-bin-path")
+steam_runtime_lib_path = linux_run("#{steam_runtime_root}/run.sh   --print-steam-runtime-library-paths")
+
+bin_path = [
+  __dir__ + '/../lxbin',
+  steam_runtime_bin_path,
+  '/compat/linux/bin'
+].compact.join(':')
+
+client_library_path = [
+  __dir__ + '/../lib32/steamfix',
+  __dir__ + '/../lib32/fakenm',
+  __dir__ + '/../lib32/fakepulse',
+  __dir__ + '/../lib64/fakepulse',
+  __dir__ + '/../lib32/fakeudev',
+  __dir__ + '/../lib64/fakeudev',
+  __dir__ + '/../lib32/protonfix',
+  __dir__ + '/../lib64/protonfix',
+  __dir__ + '/../lib64/webfix',
+  '/compat/linux/usr/lib64/nss',
+  "#{steam_root}/ubuntu12_32",
+  "#{steam_root}/ubuntu12_32/panorama",
+  steam_runtime_lib_path
+].compact.join(':')
+
+games_library_path = [
+  __dir__ + '/../lib32/fakepulse',
+  __dir__ + '/../lib64/fakepulse',
+  __dir__ + '/../lib32/fakeudev',
+  __dir__ + '/../lib64/fakeudev',
+  __dir__ + '/../lib32/fmodfix',
+  __dir__ + '/../lib64/fmodfix',
+  __dir__ + '/../lib32/pathfix',
+  __dir__ + '/../lib64/pathfix',
+  __dir__ + '/../lib32/protonfix',
+  __dir__ + '/../lib64/protonfix',
+  __dir__ + '/../lib32/monofix',
+  __dir__ + '/../lib64/monofix',
+  __dir__ + '/../lib64/webfix',
+  '/compat/linux/usr/lib64/nss',
+  steam_runtime_lib_path
+].compact.join(':')
+
+preload = [
+  'steamfix.so',
+  'libSegFault.so',
+  ENV['STEAM_LD_PRELOAD']
+].compact.join(':')
+
+ENV['FREEBSD_PATH']               = ENV['PATH']
+ENV['PATH']                       = bin_path
+ENV['SYSTEM_PATH']                = bin_path
+ENV['LD_LIBRARY_PATH']            = client_library_path
+ENV['STEAM_RUNTIME']              = steam_runtime_root
+ENV['STEAM_RUNTIME_LIBRARY_PATH'] = games_library_path
+ENV['SYSTEM_LD_LIBRARY_PATH']     = games_library_path
+ENV['LD_PRELOAD']                 = preload
+
+ENV['SDL_AUDIODRIVER'] = 'dsp'
+ENV['STEAM_ENABLE_SHADER_CACHE_MANAGEMENT'] = '0' # ?
+
+safe_system(__dir__ + '/../lxbin/upgrade-steam-runtime')
+
+exec steam_root + '/ubuntu12_32/steam', *ARGV

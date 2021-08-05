@@ -1,0 +1,11 @@
+xorg-xbacklight
+xorg-xrandr
+libxrandr
+alsa-utils
+python
+python-pmw
+python-pillow
+xf86-input-synaptics
+ffmpeg
+python-lxml
+setuptools

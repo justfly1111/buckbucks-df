@@ -1,0 +1,6 @@
+#!/bin/sh
+xrdb $HOME/.Xresources
+wal -R
+mkdir $XDG_RUNTIME_DIR
+chmod 0600 $XDG_RUNTIME_DIR
+exec /usr/local/bin/startplasma-wayland.sh&

@@ -1,0 +1,35 @@
+XKB_DEFAULT_LAYOUT="us"; export XKB_DEFAULT_LAYOUT
+XKB_DEFAULT_MODEL="happyhacking"; export XKB_DEFAULT_MODEL
+HIKARI_CONFIG=$HOME/.config/hikari/hikari.conf; export HIKARI_CONFIG
+XDG_RUNTIME_DIR=/tmp/`id -u`-runtime-dir; export XDG_RUNTIME_DIR
+QTDIR=/usr/local/lib/qt5; export QTDIR
+#LIBVA_DRIVER_NAME=i965; export LIBVA_DRIVER_NAME
+_JAVA_AWT_WM_NONREPARENTING=1; export _JAVA_AWT_WM_NONREPARENTING
+SDL_VIDEODRIVER=wayland; export SDL_VIDEODRIVER
+MOZ_ENABLE_WAYLAND=1; export MOZ_ENABLE_WAYLAND
+GDK_BACKEND=wayland; export GDK_BACKEND
+#WAYLAND_DISPLAY=wayland-1; export WAYLAND_DISPLAY
+#HIKARI_CONFIG=/home/doeboy1111/.config/hikari/hikari.conf; export HIKARI_CONFIG
+QT_QPA_PLATFORM=wayland-egl; export QT_QPA_PLATFORM
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1; export QT_WAYLAND_DISABLE_WINDOWDECORATION;
+WAYFIRE_CONFIG_FILE=/home/doeboy1111/.config/wayfire.ini; export WAYFIRE_CONFIG_FILE
+CLUTTER_BACKEND=wayland; export CLUTTER_BACKEND
+GDM_LANG=en_US.UTF-8; export GDM_LANG
+GNOME_SESSION_AUTOSTART_DIR=$HOME/.config/autostart; export GNOME_SESSION_AUTOSTART_DIR
+QT_QPA_PLATFORMTHEME="qt5ct"; export QT_QPA_PLATFORMTHEME
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/home/doeboy1111/.bin:$HOME/.cargo/bin:/usr/local/lib/qt5/bin:$HOME/.local/bin:/usr/home/doeboy1111/zig-0.8.0-dev:/usr/local/lib/python3.8/site-packages; export PATH
+QMAKE=/usr/local/lib/qt5/bin/qmake ; export QMAKE
+LRELEASE=/usr/local/lib/qt5/bin/lrelease ; export LRELEASE
+MOC=/usr/local/lib/qt5/bin/moc ; export MOC
+RCC=/usr/local/lib/qt5/bin/rcc ; export RCC
+UIC=/usr/local/lib/qt5/bin/uic ; export UIC
+QT_INCDIR=/usr/local/include/qt5 ; export QT_INCDIR
+QT_LIBDIR=/usr/local/lib/qt5 ; export QT_LIBDIR
+QT_PLUGINDIR=/usr/local/lib/qt5/plugins ; export QT_PLUGINDIR
+
+if [ ! -d $XDG_RUNTIME_DIR ]
+then
+	echo "Creating XDG_RUNTIME_DIR ..."
+	mkdir $XDG_RUNTIME_DIR ; chmod 700 $XDG_RUNTIME_DIR
+	echo "Created ready to launch wayland compositors"
+fi
