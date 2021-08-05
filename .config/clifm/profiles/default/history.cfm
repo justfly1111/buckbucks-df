@@ -1,0 +1,4 @@
+edit
+glider
+ls
+cd ..

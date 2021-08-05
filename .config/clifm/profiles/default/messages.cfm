@@ -1,0 +1,2 @@
+[2021-7-17T14:37:2] CliFM created a new MIME list file (/home/buckbucks/.config/clifm/profiles/default/mimelist.cfm) It is recommended to edit this file (entering 'mm edit' or pressing F6) to add the programs you use and remove those you don't. This will make the process of opening files faster and smoother
+The default MIME list file, covering the most common file type associations, can be found in /usr/share/clifm/mimelist.cfm.
