@@ -1,6 +1,0 @@
-2021/07/21-04:06:21.659 196b2 Creating DB /home/buckbucks/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_violet-donkey-6p7xwgvi.ws-us10.gitpod.io_0.indexeddb.leveldb since it was missing.
-2021/07/21-04:06:21.666 196b2 Reusing MANIFEST /home/buckbucks/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_violet-donkey-6p7xwgvi.ws-us10.gitpod.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/21-04:18:17.548 196b2 Level-0 table #5: started
-2021/07/21-04:18:17.601 196b2 Level-0 table #5: 512015 bytes OK
-2021/07/21-04:18:17.604 196b2 Delete type=0 #3
-2021/07/21-04:18:17.605 196b2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
