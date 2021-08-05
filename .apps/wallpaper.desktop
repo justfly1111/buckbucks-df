@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Wallpaper
+Exec=~/scripts/random_wallpaper.sh ~/gfx/wallpapers
+Icon=/home/vermaden/.icons/vermaden/wallpaper.png
+
