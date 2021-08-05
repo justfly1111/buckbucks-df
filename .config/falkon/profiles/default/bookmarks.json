@@ -819,6 +819,14 @@
                     "type": "url",
                     "url": "https://github.com/jbeich/gamescope/tree/freebsd/src",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to store dotfiles | Atlassian Git Tutorial",
+                    "type": "url",
+                    "url": "https://www.atlassian.com/git/tutorials/dotfiles",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
