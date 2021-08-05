@@ -1,4 +1,0 @@
-edit
-glider
-ls
-cd ..
