@@ -1,0 +1,18 @@
+13:54:26: Audacity 3.0.2
+13:54:26: Trying to load FFmpeg libraries...
+13:54:26: Trying to load FFmpeg libraries from system paths. File name is 'libavformat.so.58'.
+13:54:26: Checking for monolithic avformat from 'libavformat.so.58'.
+13:54:26: avformat not monolithic
+13:54:26: Loading avutil from '/usr/local/lib/libavutil.so.56.70.100'.
+13:54:26: Loading avcodec from '/usr/local/lib/libavcodec.so.58.134.100'.
+13:54:26: Loading avformat from 'libavformat.so.58'.
+13:54:26: Actual avutil path /usr/local/lib/libavutil.so.56.70.100
+13:54:26: Actual avcodec path /usr/local/lib/libavcodec.so.58.134.100
+13:54:26: Actual avformat path /usr/local/lib/libavformat.so.58.76.100
+13:54:26: Importing symbols...
+13:54:26: All symbols loaded successfully. Initializing the library.
+13:54:26: Retrieving FFmpeg library version numbers:
+13:54:26:    AVCodec version 0x3a8664 - 58.134.100 (built against 0x3a8664 - 58.134.100)
+13:54:26:    AVFormat version 0x3a4c64 - 58.76.100 (built against 0x3a4c64 - 58.76.100)
+13:54:26:    AVUtil version 0x384664 - 56.70.100 (built against 0x384664 - 56.70.100)
+13:54:26: FFmpeg libraries loaded successfully.
